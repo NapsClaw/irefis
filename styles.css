@@ -2016,6 +2016,145 @@ button { cursor: pointer; font-family: inherit; }
   box-shadow: 0 4px 16px rgba(0,0,0,0.15);
 }
 
+/* ═══ BLOCO PATROCINADOR DAS CARTILHAS ═══ */
+.patrocinador-mama {
+  background: #fff;
+  border: 2px solid rgba(173,20,87,0.18);
+  border-radius: var(--radius-md);
+  padding: 36px 40px;
+  margin-bottom: 32px;
+  box-shadow: 0 6px 28px rgba(173,20,87,0.09);
+  position: relative;
+  overflow: hidden;
+}
+.patrocinador-mama::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #880E4F, #F06292, #880E4F);
+}
+
+.patrocinador-mama-top {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.patrocinador-mama-eyebrow {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #AD1457;
+  background: rgba(173,20,87,0.08);
+  border: 1px solid rgba(173,20,87,0.22);
+  border-radius: 999px;
+  padding: 4px 13px;
+  margin-bottom: 12px;
+}
+
+.patrocinador-mama-titulo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(1.25rem, 2.5vw, 1.7rem);
+  font-weight: 800;
+  color: #880E4F;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.patrocinador-mama-desc {
+  font-size: 0.97rem;
+  color: var(--gray-600);
+  line-height: 1.7;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.patrocinador-bens-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.patrocinador-ben {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  background: #fff5f8;
+  border: 1px solid rgba(173,20,87,0.10);
+  border-radius: var(--radius-sm);
+  padding: 16px 18px;
+}
+
+.pat-ben-icon {
+  font-size: 1.7rem;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.patrocinador-ben strong {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #880E4F;
+  margin-bottom: 4px;
+}
+
+.patrocinador-ben p {
+  font-size: 0.84rem;
+  color: var(--gray-500);
+  line-height: 1.55;
+  margin: 0;
+}
+
+.patrocinador-cta-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  background: linear-gradient(135deg, #fce4ec 0%, #fff0f5 100%);
+  border-radius: var(--radius-sm);
+  padding: 22px 28px;
+  flex-wrap: wrap;
+}
+
+.patrocinador-cta-texto {
+  font-size: 0.97rem;
+  color: #880E4F;
+  font-weight: 600;
+  line-height: 1.6;
+  margin: 0;
+  flex: 1;
+}
+
+.btn-patrocinador-wa {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #880E4F;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  padding: 13px 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.88rem;
+  font-weight: 700;
+  white-space: nowrap;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: background var(--transition), box-shadow var(--transition), transform var(--transition);
+}
+.btn-patrocinador-wa:hover {
+  background: #AD1457;
+  box-shadow: 0 6px 20px rgba(136,14,79,0.32);
+  transform: translateY(-1px);
+}
+
 /* nav link campanha */
 .nav-campanha { color: #F48FB1 !important; }
 .nav-campanha:hover { color: white !important; }
@@ -2051,6 +2190,9 @@ button { cursor: pointer; font-family: inherit; }
   /* campanha */
   .campanha-grid { grid-template-columns: 1fr; }
   .campanha-mama::after { font-size: 180px; right: -20px; top: -20px; }
+  /* patrocinador */
+  .patrocinador-bens-grid { grid-template-columns: 1fr; }
+  .patrocinador-mama { padding: 28px 24px; }
 }
 @media (max-width: 768px) {
   .section { padding-block: 48px; }
@@ -2064,6 +2206,9 @@ button { cursor: pointer; font-family: inherit; }
   .campanha-cta { padding: 28px 24px; }
   .campanha-cta-inner { flex-direction: column; text-align: center; gap: 20px; }
   .campanha-cta-text p { max-width: 100%; }
+  /* patrocinador */
+  .patrocinador-cta-row { flex-direction: column; text-align: center; gap: 16px; padding: 20px 18px; }
+  .btn-patrocinador-wa { width: 100%; justify-content: center; }
   .btn-pink-wa { width: 100%; justify-content: center; }
   .nav-toggle { display: flex; }
   .nav-menu {
