@@ -118,3 +118,20 @@ Complemento do cliente — cálculo de taxa dos Correios para camisetas:
 - Texto claro: "Informe seu CEP para calcular a entrega" e "A equipe confirma o valor exato dos Correios pelo WhatsApp".
 - Preservar preço: camiseta branca R$ 40,00 cada.
 - Preservar telefone oficial: (31) 99259-4953 / wa.me 5531992594953.
+
+Bug visual reportado pelo cliente — Foto Leva e Traz não aparece:
+- Cliente enviou print da seção Leva e Traz mostrando que ainda aparece ilustração/card genérico de rota, não a foto real do carro.
+- Corrigir obrigatoriamente a seção Leva e Traz para exibir a foto real do veículo enviada pelo cliente.
+- Arquivo correto: /root/sparkz-projetos/irefis/referencias/foto-leva-e-traz-carro.jpg
+- A foto deve aparecer visível no lado direito/área visual da seção, substituindo o card/ilustração atual.
+- Enquadrar com object-fit: cover ou contain conforme necessário, sem cortar partes importantes do carro.
+- Fazer cache-bust se necessário para garantir que o site público carregue a nova imagem.
+- QA obrigatório: abrir https://irefis.sparkz.agency com cache-bust e confirmar visualmente que a foto real do carro aparece na seção Leva e Traz, não apenas o ícone/ilustração.
+
+Correção cliente — Foto no bloco/link Leva e Traz:
+- Cliente enviou print mostrando que no bloco do Leva e Traz ainda aparece apenas ícone/rota "Sua residência -> IREFIS" e disse: "Aqui não tem como colocar a foto" / "Link do leva e traz".
+- Ajustar a seção/link/bloco de Leva e Traz para exibir a foto real do carro dentro desse card/área visual, não apenas em outro ponto da seção.
+- Manter o card de rota se fizer sentido, mas inserir a foto do carro acima/ao lado/como destaque do mesmo bloco, com o carro inteiro visível.
+- Criar/garantir âncora direta para a seção: #leva-e-traz. O link direto deve funcionar: https://irefis.sparkz.agency/#leva-e-traz
+- Se houver botão/link "Solicitar Leva e Traz", manter apontando para WhatsApp oficial e preservar o texto do serviço.
+- Arquivo da foto: /root/sparkz-projetos/irefis/referencias/foto-leva-e-traz-carro.jpg
