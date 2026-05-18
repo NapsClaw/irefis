@@ -1,0 +1,31 @@
+Cliente: Wilson Barbosa
+Projeto: IREFIS — ajuste incremental após protótipo inicial
+URL atual: https://irefis.sparkz.agency
+
+O protótipo inicial já foi criado e publicado. Cliente Wilson pediu incluir:
+
+1. Local dos parceiros
+   - Criar seção “Parceiros do IREFIS” ou “Rede de Parceiros”
+   - Espaço para empresas, clínicas, profissionais, comércios e instituições parceiras
+   - Cards com placeholder de logo/nome, tipo de parceria e benefício oferecido
+   - CTA: “Quero ser parceiro”
+
+2. Empresa Amiga
+   - Criar destaque/seção para programa “Empresa Amiga do IREFIS”
+   - Explicar que empresas podem apoiar projetos de reabilitação, saúde, inclusão e qualidade de vida
+   - Benefícios: visibilidade institucional, responsabilidade social, selo Empresa Amiga, divulgação no site
+   - Botão: “Cadastrar empresa amiga” ou “Quero apoiar o IREFIS”
+
+3. Embaixadora / Embaixador da Autoestima
+   - Criar seção “Embaixadores da Autoestima”
+   - Pode usar linguagem inclusiva: “Embaixadora(o) da Autoestima” ou “Embaixadores da Autoestima”
+   - Explicar como programa de pessoas que representam, divulgam e apoiam a missão do instituto, autoestima, saúde, reabilitação e inclusão
+   - Espaço para fotos/nomes futuros dos embaixadores
+   - CTA: “Quero ser embaixador(a)”
+
+Requisitos:
+- Manter o visual premium atual e as cores do logo.
+- Não remover seções existentes: diretoria, Leva e Traz, sócios, cartão, documentos/ata/estatuto, contato.
+- Não inventar nomes reais de parceiros/empresas/embaixadores; usar placeholders elegantes e claros.
+- Publicar no mesmo link https://irefis.sparkz.agency.
+- Fazer QA visual antes de finalizar.

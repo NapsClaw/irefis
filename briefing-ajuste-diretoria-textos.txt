@@ -1,0 +1,38 @@
+Ajustes solicitados pelo Wilson para o site IREFIS no mesmo link https://irefis.sparkz.agency
+
+Contexto: protótipo institucional IREFIS já publicado. Preservar visual premium, logo maior no header e seções existentes.
+
+Pedidos do cliente:
+1. Remover somente a palavra "gratuita" onde aparece no botão/texto de agendamento/avaliação. Ex.: "Agendar Avaliação Gratuita" deve virar "Agendar Avaliação".
+2. Remover a expressão "direto clínica" / "direto à clínica" onde aparecer no site. Reescrever a frase sem essa expressão, mantendo sentido natural.
+3. Colocar/ajustar os diretores na área de diretoria/conselho.
+4. Incluir cargos solicitados:
+   - Secretário
+   - Contadora
+   - Presidente do Conselho Fiscal
+   - Segundo do Conselho Fiscal
+   - Terceiro do Conselho Fiscal
+   - 5º do Conselho Fiscal
+   - Departamento Jurídico
+   - Departamento Contábil
+
+Observação: o cliente complementou depois com “Segundo do conselho fiscal”, “Terceiro do conselho fiscal”, “5 do conselho fiscal”, “Departamento jurídico” e “Departamento contabil”. Considerar todos esses itens na mesma área institucional/diretoria/conselho, sem inventar nomes se não houver nome claro.
+
+Imagens enviadas pelo cliente nesta rodada para referência:
+- /root/.hermes/image_cache/img_d0d3743c5554.jpg (screenshot indicando remover palavra gratuita)
+- /root/.hermes/image_cache/img_2c0ef5ccfa67.jpg (screenshot/referência para diretoria/cargos)
+
+Instruções importantes:
+- Não inventar nomes de pessoas se não estiverem visíveis/claros nas imagens. Se os nomes não estiverem legíveis, usar placeholders elegantes como "Nome a confirmar" junto do cargo, ou manter estrutura preparada para substituir.
+- Não inventar CPF, CNPJ, documentos, PIX ou dados sensíveis.
+- Preservar layout responsivo, logo maior no header e todas as seções já aprovadas.
+- Fazer QA visual e textual após deploy: confirmar que "gratuita" saiu, "direto clínica" saiu e os cargos aparecem na seção correta.
+
+Complemento final do cliente: “Todos is” = considerar todos os cargos/listas enviados nesta sequência como parte do ajuste da diretoria/conselho/departamentos. Não deixar nenhum item de fora.
+
+Novo complemento do cliente: todos os sócios terão gratuitamente o Cartão do Instituto. Ajustar a seção "Cartão do Instituto" e/ou "Categorias de Sócios" para deixar claro que o cartão é gratuito para todos os sócios, sem cobrar taxa extra.
+
+Complemento sobre Cartão do Instituto:
+- Todos os sócios terão gratuitamente o Cartão do Instituto.
+- Sócio Parceiro / Empresa terá direito ao cartão para seus funcionários e colaboradores.
+- Escrever de forma clara no bloco de Sócio Parceiro/Empresa e/ou Cartão do Instituto, sem parecer cobrança adicional.

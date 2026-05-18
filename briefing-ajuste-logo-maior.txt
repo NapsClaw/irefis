@@ -1,0 +1,19 @@
+Cliente: Wilson Barbosa
+Projeto: IREFIS — ajuste do logo/header
+URL atual: https://irefis.sparkz.agency
+
+Correção do cliente: “Só logo”.
+
+Interpretação:
+- Cliente quer aumentar apenas o símbolo/imagem do logo, não mexer no texto do menu, não alterar conteúdo, não ampliar demais subtítulo se isso quebrar layout.
+
+Tarefa:
+Aumentar apenas a imagem/logo do IREFIS no topo/header para ficar mais visível.
+
+Requisitos:
+1. Aumentar somente o logo/imagem no header.
+2. Não alterar textos, seções, conteúdo ou estrutura do site.
+3. Não mexer no menu além do necessário para acomodar o logo.
+4. Manter responsivo em celular.
+5. Publicar no mesmo link https://irefis.sparkz.agency.
+6. Fazer QA visual do header antes de finalizar.

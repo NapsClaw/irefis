@@ -1,0 +1,34 @@
+Cliente: Wilson Barbosa
+Projeto: IREFIS — refino final visual compacto
+URL atual: https://irefis.sparkz.agency
+
+QA da Isa após incluir Doações/Apoie apontou:
+- menu Apoie existe e seção Apoie/Doações existe.
+- Conteúdo está presente, mas visual ainda não está compacto/profissional o suficiente.
+- Ícones/ilustrações grandes demais em várias seções.
+- Texto pequeno em comparação com imagens.
+- Página longa demais, sensação de componentes empilhados.
+- Seções Parceiros, Embaixadores e Apoie/Doações precisam ficar mais compactas.
+
+Tarefa:
+Refinar visual final do protótipo IREFIS para apresentação à diretoria.
+
+Requisitos obrigatórios:
+1. Reduzir todos os ícones/avatares/logos gigantes das seções:
+   - Rede de Parceiros
+   - Empresa Amiga
+   - Embaixadores da Autoestima
+   - Apoie/Doações
+2. Transformar cards em grids compactos:
+   - desktop: 3 ou 4 colunas quando couber
+   - mobile: 1 ou 2 colunas
+   - ícones dentro de círculos pequenos (48–72px), não ocupando tela inteira.
+3. Aumentar legibilidade de textos pequenos se necessário.
+4. Diminuir espaçamentos verticais exagerados.
+5. Destacar “Apoie”/“Doações” com CTA claro, mas sem poluir.
+6. Manter todas as seções e conteúdo já aprovados:
+   - Sobre, Tratamentos, Diretoria, Leva e Traz, Sócios, Cartão do Instituto, Parceiros, Empresa Amiga, Embaixadores, Apoie/Doações, Documentos/Ata/Estatuto, Contato.
+7. Não inventar dados reais, PIX, CNPJ, parceiros ou embaixadores.
+8. Preservar logo e paleta do IREFIS.
+9. Publicar no mesmo link https://irefis.sparkz.agency.
+10. Fazer QA visual antes de finalizar.

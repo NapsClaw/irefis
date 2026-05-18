@@ -1,0 +1,38 @@
+Cliente: Wilson Barbosa
+Projeto: IREFIS — refinamento visual pós-QA
+URL atual: https://irefis.sparkz.agency
+
+QA visual da Isa em 2026-05-18 apontou que o site está profissional no geral, logo aparece no topo/hero e as seções Parceiros, Empresa Amiga e Embaixadores estão presentes. Porém há problema visual nas seções novas:
+
+Problemas:
+- Ícones/imagens gigantes nas seções “Rede de Parceiros” e “Embaixadores da Autoestima”.
+- Cards estão desproporcionais, ocupando muito espaço vertical.
+- Avatares/placeholders grandes e repetidos passam sensação de conteúdo provisório.
+- Página fica longa demais e menos refinada nessas seções.
+
+Tarefa:
+Refinar visualmente as seções novas sem alterar o conteúdo essencial.
+
+Requisitos:
+1. Rede de Parceiros:
+   - Transformar em grid compacto e elegante.
+   - Cards menores, 3 colunas no desktop e 1-2 no mobile.
+   - Ícones/logos em tamanho equilibrado (não gigantes).
+   - Manter: Clínica, Farmácia, Comércio Local, Profissional de Saúde, Instituição, “Sua empresa aqui”.
+   - CTA “Quero ser Parceiro”.
+
+2. Empresa Amiga:
+   - Manter visual premium, mas garantir que o selo/logo não fique exagerado.
+   - Layout equilibrado.
+
+3. Embaixadores da Autoestima:
+   - Reduzir avatares/placeholders.
+   - Usar cards menores com nome/função placeholder e imagem/ícone menor.
+   - Manter CTA “Quero ser Embaixador(a)”.
+
+4. Legibilidade:
+   - Melhorar textos pequenos se necessário.
+   - Manter identidade visual: azul, verde/água, vermelho do logo.
+
+5. Não remover seções existentes e não inventar dados reais.
+6. Publicar no mesmo link https://irefis.sparkz.agency e QA visual antes de finalizar.

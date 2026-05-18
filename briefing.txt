@@ -1,0 +1,88 @@
+Cliente: Wilson Barbosa
+Projeto: IREFIS — Instituto de Reabilitação Fisiot em Saúde
+Objetivo: montar um protótipo/site para apresentar para a diretoria, antes do pagamento.
+
+Logo/referência visual:
+- Imagem enviada pelo cliente: /root/.hermes/image_cache/img_3aa4d8bb6df5.jpg
+- Usar como base visual: saúde, reabilitação, confiança, institucional premium.
+- Cores principais percebidas: azul, verde/água e vermelho do logo.
+- Nome: Instituto de Reabilitação Fisiot em Saúde / IREFIS / Lagoa Santa MG.
+
+Contexto e proposta do site:
+Wilson quer um site novo para o instituto de reabilitação “Fisiot em Saúde”, para apresentar para a diretoria.
+O site deve ser profissional, sério, institucional, com cara de saúde, instituto e reabilitação.
+
+Estrutura desejada:
+1. Página inicial forte
+   - Hero com logo/nome IREFIS
+   - Chamada: “Reabilitação, fisioterapia e saúde integrada em Lagoa Santa”
+   - Botões: “Conheça o Instituto”, “Quero ser sócio”, “Falar no WhatsApp”
+
+2. Sobre o IREFIS
+   - Instituto voltado à reabilitação, fisioterapia, saúde, prevenção, inclusão, qualidade de vida e cuidado humanizado.
+   - Tom institucional e confiável.
+
+3. Tratamentos / áreas de atuação
+   - Fisioterapia
+   - Reabilitação física
+   - Pilates terapêutico
+   - Dor na coluna
+   - Pós-operatório
+   - Idosos / melhor idade
+   - Saúde preventiva
+   - Tratamentos personalizados
+
+4. Área da Diretoria
+   - Palavra da diretoria
+   - Missão, visão e valores
+   - Espaço para fotos/nomes dos diretores futuramente
+   - Mensagem institucional para passar confiança
+
+5. Leva e Traz
+   - Serviço de transporte assistido para pacientes
+   - Foco em idosos, pessoas com dificuldade de locomoção e pacientes em reabilitação
+   - Chamada: “Cuidado desde a saída de casa até o atendimento no instituto”
+   - Botão WhatsApp para solicitar
+
+6. Categoria de Sócios
+   - Sócio Paciente — sugestão R$29,90/mês
+   - Sócio Contribuinte — sugestão R$49,90/mês
+   - Sócio Família — sugestão R$79,90/mês
+   - Sócio Parceiro / Empresa — sugestão R$199 a R$499/mês
+   - Usar “Planos de sócio a partir de R$29,90/mês” para não travar todos os valores.
+   - Botão: “Quero ser sócio”
+
+7. Cartão do Instituto
+   - Cartão/carteirinha do associado
+   - Benefícios, identificação do associado, facilidade para agendamentos, descontos/parcerias
+   - Taxa sugerida opcional: R$19,90 emissão do cartão
+   - Mostrar conceito de carteirinha digital e QR Code como recurso do sistema
+
+8. Área de documentos / Transparência
+   - Incluir seção “Documentos Institucionais” ou “Transparência”
+   - Espaços para Ata de Fundação, Estatuto Social e outros documentos oficiais em PDF
+   - Exibir como cards elegantes com ícones e botão “Baixar PDF”/“Ver documento”
+   - Não inventar documentos reais; usar placeholders claros: “Documento em preparação” ou “PDF será anexado pela diretoria”
+   - Não expor dados sensíveis; orientar que só PDFs aprovados pela diretoria entram no ar
+
+9. Localização e contato
+   - Lagoa Santa MG
+   - WhatsApp, endereço, Instagram e mapa como placeholders editáveis
+
+10. Sistema / proposta comercial visual
+   - O protótipo deve comunicar que pode evoluir para sistema completo:
+     cadastro de sócios, painel básico, carteirinha digital, QR Code, solicitação de cartão.
+   - Preço combinado com Wilson: R$1.299 setup em 10x de R$129,90 + R$119/mês manutenção/hospedagem. NÃO mostrar preço no site final, a menos que seja uma seção de proposta interna discreta ou página de apresentação para diretoria.
+
+Requisitos de design:
+- Visual institucional premium, limpo, moderno.
+- Saúde/reabilitação: branco, azul, verde/água, detalhes em vermelho do logo.
+- Criar protótipo persuasivo para diretoria, com seções bem organizadas e CTAs.
+- Deve ficar bonito em celular e desktop.
+- Sem conteúdo genérico demais; usar linguagem brasileira, clara e profissional.
+- Não usar CNPJ placeholder nem dados inventados.
+
+Entrega:
+- Criar preview público em https://irefis.sparkz.agency ou domínio de preview equivalente.
+- Arquivos estáticos funcionais.
+- Fazer QA visual antes de finalizar.
