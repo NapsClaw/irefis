@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IREFIS — Instituto de Reabilitação Fisiot em Saúde | Lagoa Santa MG</title>
+  <meta name="description" content="IREFIS — Instituto de Reabilitação Fisiot em Saúde. Fisioterapia, reabilitação física, pilates terapêutico e saúde integrada em Lagoa Santa, MG." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════ NAVBAR ═══════════════════ -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo">
+        <img src="logo.jpg" alt="IREFIS logo" class="nav-logo-img" />
+        <span class="nav-logo-text">
+          <strong>IREFIS</strong>
+          <small>Instituto de Reabilitação Fisiot em Saúde</small>
+        </span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-menu" id="navMenu">
+        <a href="#sobre">Sobre</a>
+        <a href="#tratamentos">Tratamentos</a>
+        <a href="#diretoria">Diretoria</a>
+        <a href="#leva-traz">Leva e Traz</a>
+        <a href="#socios">Sócios</a>
+        <a href="#documentos">Transparência</a>
+        <a href="#contato">Contato</a>
+        <a href="https://wa.me/5531900000000?text=Olá!%20Gostaria%20de%20informações%20sobre%20o%20IREFIS." target="_blank" class="btn btn-whatsapp nav-wa">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          WhatsApp
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ═══════════════════ HERO ═══════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">Lagoa Santa · Minas Gerais</div>
+      <img src="logo.jpg" alt="IREFIS" class="hero-logo" />
+      <h1 class="hero-title">
+        Reabilitação, fisioterapia e<br class="br-desk" />
+        saúde integrada em Lagoa Santa
+      </h1>
+      <p class="hero-sub">
+        Cuidado humanizado, tratamentos especializados e suporte completo<br class="br-desk" />
+        para você e sua família viverem com mais qualidade de vida.
+      </p>
+      <div class="hero-actions">
+        <a href="#sobre" class="btn btn-primary">Conheça o Instituto</a>
+        <a href="#socios" class="btn btn-outline-white">Quero ser Sócio</a>
+        <a href="https://wa.me/5531900000000?text=Olá!%20Gostaria%20de%20informações%20sobre%20o%20IREFIS." target="_blank" class="btn btn-whatsapp">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Falar no WhatsApp
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Role para conhecer</span>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ NÚMEROS / DESTAQUES ═══════════════════ -->
+  <section class="stats-bar">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <span class="stat-num">+500</span>
+        <span class="stat-label">Pacientes Atendidos</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num">8</span>
+        <span class="stat-label">Especialidades</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num">100%</span>
+        <span class="stat-label">Cuidado Humanizado</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num">Lagoa Santa</span>
+        <span class="stat-label">Minas Gerais</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ SOBRE ═══════════════════ -->
+  <section class="section sobre" id="sobre">
+    <div class="container sobre-inner">
+      <div class="sobre-visual">
+        <div class="sobre-logo-wrap">
+          <img src="logo.jpg" alt="IREFIS" class="sobre-logo" />
+          <div class="sobre-logo-ring"></div>
+        </div>
+        <div class="sobre-pillars">
+          <div class="pillar"><span class="pillar-icon">🤝</span><span>Cuidado Humanizado</span></div>
+          <div class="pillar"><span class="pillar-icon">♿</span><span>Inclusão e Acessibilidade</span></div>
+          <div class="pillar"><span class="pillar-icon">🏥</span><span>Saúde Integrada</span></div>
+          <div class="pillar"><span class="pillar-icon">⭐</span><span>Qualidade de Vida</span></div>
+        </div>
+      </div>
+      <div class="sobre-text">
+        <div class="section-eyebrow">Sobre o Instituto</div>
+        <h2 class="section-title">Quem é o <span class="highlight">IREFIS</span></h2>
+        <p>
+          O <strong>Instituto de Reabilitação Fisiot em Saúde — IREFIS</strong> nasceu com um propósito claro:
+          levar reabilitação de qualidade, fisioterapia especializada e cuidado integral à comunidade de
+          <strong>Lagoa Santa e região</strong>.
+        </p>
+        <p>
+          Acreditamos que a saúde é um direito de todos. Por isso, o instituto foi criado para oferecer
+          atendimento humanizado, tratamentos personalizados e suporte completo — desde a chegada do paciente
+          até o acompanhamento de sua evolução.
+        </p>
+        <p>
+          Com profissionais comprometidos, estrutura acolhedora e foco na reabilitação e prevenção, o IREFIS
+          é um espaço de transformação e qualidade de vida para pessoas de todas as idades.
+        </p>
+        <a href="#tratamentos" class="btn btn-primary mt-1">Nossos Tratamentos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ TRATAMENTOS ═══════════════════ -->
+  <section class="section tratamentos bg-light" id="tratamentos">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Áreas de Atuação</div>
+        <h2 class="section-title">Tratamentos e <span class="highlight">Especialidades</span></h2>
+        <p class="section-desc">Atendimento especializado e personalizado para cada fase da sua saúde.</p>
+      </div>
+      <div class="tratamentos-grid">
+
+        <div class="trat-card">
+          <div class="trat-icon">
+            <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" fill="#E3F2FD"/><path d="M32 14c-3.31 0-6 2.69-6 6v16c0 3.31 2.69 6 6 6s6-2.69 6-6V20c0-3.31-2.69-6-6-6z" fill="#1565C0"/><path d="M22 30v6c0 5.52 4.48 10 10 10s10-4.48 10-10v-6" stroke="#E53935" stroke-width="2.5" stroke-linecap="round"/><line x1="32" y1="46" x2="32" y2="52" stroke="#E53935" stroke-width="2.5" stroke-linecap="round"/><line x1="26" y1="52" x2="38" y2="52" stroke="#E53935" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Fisioterapia</h3>
+          <p>Avaliação e tratamento fisioterapêutico individualizado, focado na reabilitação e melhora da função motora.</p>
+        </div>
+
+        <div class="trat-card">
+          <div class="trat-icon">
+            <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" fill="#E8F5E9"/><path d="M20 44l8-16 8 10 4-8 4 14" stroke="#1565C0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="32" cy="18" r="5" fill="#00ACC1"/></svg>
+          </div>
+          <h3>Reabilitação Física</h3>
+          <p>Programa completo de reabilitação para recuperação de lesões, doenças e cirurgias, devolvendo mobilidade e independência.</p>
+        </div>
+
+        <div class="trat-card">
+          <div class="trat-icon">
+            <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" fill="#E3F2FD"/><ellipse cx="32" cy="38" rx="14" ry="6" fill="#00ACC1" opacity=".3"/><path d="M32 20c0 0-12 8-12 16s12 8 12 8 12 0 12-8-12-16-12-16z" stroke="#1565C0" stroke-width="2" fill="none"/><circle cx="32" cy="28" r="3" fill="#E53935"/></svg>
+          </div>
+          <h3>Pilates Terapêutico</h3>
+          <p>Método Pilates adaptado para fins terapêuticos, com foco em core, postura, equilíbrio e bem-estar global.</p>
+        </div>
+
+        <div class="trat-card">
+          <div class="trat-icon">
+            <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" fill="#FFF3E0"/><rect x="27" y="12" width="10" height="40" rx="5" fill="#1565C0" opacity=".15"/><circle cx="32" cy="18" r="4" fill="#E53935"/><circle cx="32" cy="26" r="4" fill="#E53935"/><circle cx="32" cy="34" r="4" fill="#E53935"/><circle cx="32" cy="42" r="4" fill="#E53935"/><path d="M25 18h-4M43 18h4M25 26h-8M43 26h8M25 34h-4M43 34h4M25 42h-8M43 42h8" stroke="#1565C0" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Dor na Coluna</h3>
+          <p>Tratamento especializado para hérnias, lombalgias, cervicalgias e outras condições da coluna vertebral.</p>
+        </div>
+
+        <div class="trat-card">
+          <div class="trat-icon">
+            <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" fill="#FCE4EC"/><path d="M20 24h24M20 32h24M20 40h16" stroke="#1565C0" stroke-width="2.5" stroke-linecap="round"/><path d="M44 36l4 4-4 4" stroke="#E53935" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Pós-Operatório</h3>
+          <p>Acompanhamento fisioterapêutico especializado no pós-cirúrgico para recuperação segura e eficiente.</p>
+        </div>
+
+        <div class="trat-card">
+          <div class="trat-icon">
+            <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" fill="#E8F5E9"/><path d="M32 18c-4.42 0-8 3.58-8 8 0 5.5 8 16 8 16s8-10.5 8-16c0-4.42-3.58-8-8-8z" fill="#00ACC1" opacity=".4"/><circle cx="32" cy="26" r="4" fill="#1565C0"/><path d="M22 46c0-5.52 4.48-10 10-10s10 4.48 10 10" stroke="#1565C0" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Melhor Idade</h3>
+          <p>Atendimento dedicado ao público idoso, com foco em prevenção de quedas, mobilidade, equilíbrio e qualidade de vida.</p>
+        </div>
+
+        <div class="trat-card">
+          <div class="trat-icon">
+            <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" fill="#E3F2FD"/><path d="M32 14l3.09 9.26L45 23l-7.27 7.09L39.18 40 32 35.77 24.82 40l2.45-9.91L20 23l9.91-.74z" fill="#1565C0" opacity=".3" stroke="#1565C0" stroke-width="1.5"/><path d="M26 36c1.5 3 3.5 5 6 6 2.5-1 4.5-3 6-6" stroke="#00ACC1" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+          </div>
+          <h3>Saúde Preventiva</h3>
+          <p>Programas de prevenção de lesões, orientações posturais e acompanhamento para manter a saúde em dia.</p>
+        </div>
+
+        <div class="trat-card">
+          <div class="trat-icon">
+            <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" fill="#F3E5F5"/><path d="M18 32h8l4-12 6 24 4-16 4 4h6" stroke="#1565C0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Tratamentos Personalizados</h3>
+          <p>Planos de tratamento desenvolvidos individualmente, respeitando a história, necessidades e objetivos de cada paciente.</p>
+        </div>
+
+      </div>
+      <div class="tratamentos-cta">
+        <a href="https://wa.me/5531900000000?text=Olá!%20Quero%20agendar%20uma%20avaliação%20no%20IREFIS." target="_blank" class="btn btn-primary">Agendar Avaliação Gratuita</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ DIRETORIA ═══════════════════ -->
+  <section class="section diretoria" id="diretoria">
+    <div class="container">
+      <div class="section-header light">
+        <div class="section-eyebrow eyebrow-light">Gestão e Liderança</div>
+        <h2 class="section-title">Área da <span class="highlight-light">Diretoria</span></h2>
+      </div>
+
+      <div class="mvv-grid">
+        <div class="mvv-card">
+          <div class="mvv-icon">🎯</div>
+          <h3>Missão</h3>
+          <p>Promover reabilitação, saúde e qualidade de vida com atendimento humanizado, profissionalismo e inclusão, servindo à comunidade de Lagoa Santa e região.</p>
+        </div>
+        <div class="mvv-card">
+          <div class="mvv-icon">🔭</div>
+          <h3>Visão</h3>
+          <p>Ser referência regional em saúde, reabilitação e fisioterapia, reconhecido pela excelência clínica, acessibilidade e impacto positivo na vida das pessoas.</p>
+        </div>
+        <div class="mvv-card">
+          <div class="mvv-icon">💎</div>
+          <h3>Valores</h3>
+          <ul class="valores-list">
+            <li>Ética e transparência</li>
+            <li>Cuidado humanizado</li>
+            <li>Inclusão e acessibilidade</li>
+            <li>Comprometimento com resultados</li>
+            <li>Respeito à dignidade humana</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="palavra-diretoria">
+        <div class="palavra-quote-mark">"</div>
+        <blockquote>
+          O IREFIS representa mais do que um instituto de reabilitação. É um compromisso com a dignidade,
+          a saúde e o bem-estar de cada pessoa que passa pelas nossas portas. Nossa missão é garantir
+          que o cuidado de qualidade seja acessível a todos — com humanidade, técnica e dedicação total.
+        </blockquote>
+        <div class="palavra-author">
+          <div class="palavra-author-avatar">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="24" fill="#1565C0" opacity=".15"/><circle cx="24" cy="18" r="8" fill="#1565C0" opacity=".4"/><path d="M8 42c0-8.84 7.16-16 16-16s16 7.16 16 16" fill="#1565C0" opacity=".25"/></svg>
+          </div>
+          <div>
+            <strong>Palavra da Diretoria</strong>
+            <span>Instituto IREFIS — Lagoa Santa MG</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="diretores-area">
+        <h3 class="diretores-titulo">Equipe de Direção</h3>
+        <div class="diretores-grid">
+          <div class="diretor-card placeholder">
+            <div class="diretor-foto-placeholder">
+              <svg viewBox="0 0 80 80" fill="none"><circle cx="40" cy="40" r="40" fill="rgba(255,255,255,0.1)"/><circle cx="40" cy="30" r="14" fill="rgba(255,255,255,0.25)"/><path d="M12 72c0-15.46 12.54-28 28-28s28 12.54 28 28" fill="rgba(255,255,255,0.15)"/></svg>
+            </div>
+            <div class="diretor-info">
+              <strong>Presidente</strong>
+              <span>Nome a ser informado pela diretoria</span>
+            </div>
+          </div>
+          <div class="diretor-card placeholder">
+            <div class="diretor-foto-placeholder">
+              <svg viewBox="0 0 80 80" fill="none"><circle cx="40" cy="40" r="40" fill="rgba(255,255,255,0.1)"/><circle cx="40" cy="30" r="14" fill="rgba(255,255,255,0.25)"/><path d="M12 72c0-15.46 12.54-28 28-28s28 12.54 28 28" fill="rgba(255,255,255,0.15)"/></svg>
+            </div>
+            <div class="diretor-info">
+              <strong>Vice-Presidente</strong>
+              <span>Nome a ser informado pela diretoria</span>
+            </div>
+          </div>
+          <div class="diretor-card placeholder">
+            <div class="diretor-foto-placeholder">
+              <svg viewBox="0 0 80 80" fill="none"><circle cx="40" cy="40" r="40" fill="rgba(255,255,255,0.1)"/><circle cx="40" cy="30" r="14" fill="rgba(255,255,255,0.25)"/><path d="M12 72c0-15.46 12.54-28 28-28s28 12.54 28 28" fill="rgba(255,255,255,0.15)"/></svg>
+            </div>
+            <div class="diretor-info">
+              <strong>Diretora Clínica</strong>
+              <span>Nome a ser informado pela diretoria</span>
+            </div>
+          </div>
+        </div>
+        <p class="diretores-nota">📌 Fotos e nomes dos diretores serão adicionados após aprovação da diretoria.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════ LEVA E TRAZ ═══════════════════ -->
+  <section class="section leva-traz bg-light" id="leva-traz">
+    <div class="container leva-inner">
+      <div class="leva-text">
+        <div class="section-eyebrow">Serviço Exclusivo</div>
+        <h2 class="section-title">🚐 Leva e <span class="highlight">Traz</span></h2>
+        <p class="leva-sub">
+          <strong>Cuidado desde a saída de casa até o atendimento no instituto.</strong>
+        </p>
+        <p>
+          Sabemos que muitos pacientes têm dificuldades de locomoção — seja pela idade, pelo processo de
+          reabilitação ou por limitações físicas. Por isso, o IREFIS oferece o serviço de
+          <strong>transporte assistido "Leva e Traz"</strong>, pensado para garantir que nenhum paciente
+          deixe de receber atendimento por falta de transporte.
+        </p>
+        <ul class="leva-lista">
+          <li>
+            <span class="leva-check">✅</span>
+            <span><strong>Ideal para idosos</strong> e pacientes com dificuldade de locomoção</span>
+          </li>
+          <li>
+            <span class="leva-check">✅</span>
+            <span><strong>Transporte seguro e assistido</strong> por profissional treinado</span>
+          </li>
+          <li>
+            <span class="leva-check">✅</span>
+            <span><strong>Agendamento fácil</strong> pelo WhatsApp</span>
+          </li>
+          <li>
+            <span class="leva-check">✅</span>
+            <span><strong>Cobertura em Lagoa Santa</strong> e região</span>
+          </li>
+          <li>
+            <span class="leva-check">✅</span>
+            <span><strong>Tranquilidade para a família</strong> do paciente</span>
+          </li>
+        </ul>
+        <a href="https://wa.me/5531900000000?text=Olá!%20Gostaria%20de%20solicitar%20o%20serviço%20Leva%20e%20Traz%20do%20IREFIS." target="_blank" class="btn btn-primary mt-1">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Solicitar Leva e Traz
+        </a>
+      </div>
+      <div class="leva-visual">
+        <div class="leva-card-visual">
+          <div class="leva-icon-big">🚐</div>
+          <div class="leva-route">
+            <div class="leva-route-point home">
+              <span class="route-icon">🏠</span>
+              <span>Sua residência</span>
+            </div>
+            <div class="leva-route-line">
+              <span class="route-dots"></span>
+            </div>
+            <div class="leva-route-point clinic">
+              <span class="route-icon">🏥</span>
+              <span>IREFIS</span>
+            </div>
+          </div>
+          <p class="leva-card-desc">Segurança e cuidado do início ao fim do tratamento</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ SÓCIOS ═══════════════════ -->
+  <section class="section socios" id="socios">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Associe-se</div>
+        <h2 class="section-title">Categorias de <span class="highlight">Sócios</span></h2>
+        <p class="section-desc">Faça parte do IREFIS e tenha acesso a benefícios exclusivos. Planos a partir de <strong>R$29,90/mês</strong>.</p>
+      </div>
+      <div class="socios-grid">
+
+        <div class="socio-card">
+          <div class="socio-header">
+            <span class="socio-badge">Básico</span>
+            <div class="socio-icon">👤</div>
+            <h3>Sócio Paciente</h3>
+          </div>
+          <div class="socio-price">
+            <span class="price-from">a partir de</span>
+            <span class="price-value">R$29,90</span>
+            <span class="price-period">/mês</span>
+          </div>
+          <ul class="socio-beneficios">
+            <li>✔ Acesso prioritário a agendamentos</li>
+            <li>✔ Carteirinha do associado</li>
+            <li>✔ Descontos em tratamentos</li>
+            <li>✔ Acompanhamento personalizado</li>
+            <li>✔ Suporte via WhatsApp</li>
+          </ul>
+          <a href="https://wa.me/5531900000000?text=Olá!%20Quero%20ser%20Sócio%20Paciente%20do%20IREFIS." target="_blank" class="btn btn-outline-primary">Quero ser Sócio</a>
+        </div>
+
+        <div class="socio-card">
+          <div class="socio-header">
+            <span class="socio-badge">Solidário</span>
+            <div class="socio-icon">🤝</div>
+            <h3>Sócio Contribuinte</h3>
+          </div>
+          <div class="socio-price">
+            <span class="price-from">a partir de</span>
+            <span class="price-value">R$49,90</span>
+            <span class="price-period">/mês</span>
+          </div>
+          <ul class="socio-beneficios">
+            <li>✔ Tudo do plano Paciente</li>
+            <li>✔ Contribui para o instituto</li>
+            <li>✔ Descontos ampliados</li>
+            <li>✔ Reconhecimento na instituição</li>
+            <li>✔ Convites para eventos</li>
+          </ul>
+          <a href="https://wa.me/5531900000000?text=Olá!%20Quero%20ser%20Sócio%20Contribuinte%20do%20IREFIS." target="_blank" class="btn btn-outline-primary">Quero ser Sócio</a>
+        </div>
+
+        <div class="socio-card destaque">
+          <div class="socio-popular-tag">⭐ Mais Popular</div>
+          <div class="socio-header">
+            <span class="socio-badge">Família</span>
+            <div class="socio-icon">👨‍👩‍👧</div>
+            <h3>Sócio Família</h3>
+          </div>
+          <div class="socio-price">
+            <span class="price-from">a partir de</span>
+            <span class="price-value">R$79,90</span>
+            <span class="price-period">/mês</span>
+          </div>
+          <ul class="socio-beneficios">
+            <li>✔ Cobertura para toda a família</li>
+            <li>✔ Carteirinha para cada membro</li>
+            <li>✔ Prioridade máxima de agendamento</li>
+            <li>✔ Descontos exclusivos</li>
+            <li>✔ Acompanhamento familiar</li>
+          </ul>
+          <a href="https://wa.me/5531900000000?text=Olá!%20Quero%20ser%20Sócio%20Família%20do%20IREFIS." target="_blank" class="btn btn-primary">Quero ser Sócio</a>
+        </div>
+
+        <div class="socio-card socio-empresa">
+          <div class="socio-header">
+            <span class="socio-badge">Corporativo</span>
+            <div class="socio-icon">🏢</div>
+            <h3>Sócio Parceiro / Empresa</h3>
+          </div>
+          <div class="socio-price">
+            <span class="price-from">a partir de</span>
+            <span class="price-value">R$199</span>
+            <span class="price-period">/mês</span>
+          </div>
+          <ul class="socio-beneficios">
+            <li>✔ Cobertura para funcionários</li>
+            <li>✔ Parceria institucional visível</li>
+            <li>✔ Logo da empresa no site/materiais</li>
+            <li>✔ Relatórios de uso e saúde</li>
+            <li>✔ Planos customizados</li>
+          </ul>
+          <a href="https://wa.me/5531900000000?text=Olá!%20Quero%20conhecer%20o%20plano%20Parceiro%20Empresa%20do%20IREFIS." target="_blank" class="btn btn-outline-primary">Falar com a Equipe</a>
+        </div>
+
+      </div>
+      <p class="socios-nota">* Valores sujeitos a ajustes pela diretoria. Planos e benefícios confirmados na adesão.</p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ CARTÃO DO INSTITUTO ═══════════════════ -->
+  <section class="section cartao bg-light" id="cartao">
+    <div class="container cartao-inner">
+      <div class="cartao-text">
+        <div class="section-eyebrow">Identificação do Associado</div>
+        <h2 class="section-title">Cartão do <span class="highlight">Instituto</span></h2>
+        <p>
+          Todo associado do IREFIS recebe sua <strong>carteirinha oficial do instituto</strong> — física ou digital —
+          com identificação pessoal, número de sócio e QR Code de verificação.
+        </p>
+        <div class="cartao-beneficios">
+          <div class="cartao-ben">
+            <span class="cartao-ben-icon">🪪</span>
+            <div>
+              <strong>Identificação Oficial</strong>
+              <p>Cartão com nome, foto, categoria e número de sócio.</p>
+            </div>
+          </div>
+          <div class="cartao-ben">
+            <span class="cartao-ben-icon">📱</span>
+            <div>
+              <strong>Versão Digital</strong>
+              <p>Acesse sua carteirinha pelo celular, a qualquer hora.</p>
+            </div>
+          </div>
+          <div class="cartao-ben">
+            <span class="cartao-ben-icon">🔲</span>
+            <div>
+              <strong>QR Code de Verificação</strong>
+              <p>Autenticação rápida e segura na recepção do instituto.</p>
+            </div>
+          </div>
+          <div class="cartao-ben">
+            <span class="cartao-ben-icon">🎁</span>
+            <div>
+              <strong>Descontos e Parcerias</strong>
+              <p>Use seu cartão para obter benefícios com parceiros credenciados.</p>
+            </div>
+          </div>
+        </div>
+        <div class="cartao-taxa-box">
+          <span>💳</span>
+          <p><strong>Taxa de emissão do cartão:</strong> valor único de <strong>R$19,90</strong> (opcional – sujeito à confirmação da diretoria).</p>
+        </div>
+        <a href="https://wa.me/5531900000000?text=Olá!%20Quero%20solicitar%20o%20cartão%20do%20IREFIS." target="_blank" class="btn btn-primary mt-1">Solicitar Meu Cartão</a>
+      </div>
+
+      <div class="cartao-visual-wrap">
+        <!-- CARTÃO DIGITAL MOCKUP -->
+        <div class="cartao-mockup">
+          <div class="cartao-front">
+            <div class="cartao-front-top">
+              <img src="logo.jpg" alt="IREFIS" class="cartao-logo" />
+              <span class="cartao-nome-inst">IREFIS</span>
+            </div>
+            <div class="cartao-front-mid">
+              <div class="cartao-avatar">
+                <svg viewBox="0 0 60 60" fill="none"><circle cx="30" cy="30" r="30" fill="rgba(255,255,255,0.15)"/><circle cx="30" cy="22" r="10" fill="rgba(255,255,255,0.3)"/><path d="M8 54c0-12.15 9.85-22 22-22s22 9.85 22 22" fill="rgba(255,255,255,0.2)"/></svg>
+              </div>
+              <div class="cartao-dados">
+                <p class="cartao-titular">NOME DO ASSOCIADO</p>
+                <p class="cartao-cat">Sócio Paciente</p>
+                <p class="cartao-num">Nº 00001</p>
+              </div>
+            </div>
+            <div class="cartao-front-bot">
+              <div class="cartao-qr">
+                <svg viewBox="0 0 40 40" fill="none" class="qr-svg">
+                  <rect width="40" height="40" fill="white" rx="3"/>
+                  <rect x="3" y="3" width="15" height="15" rx="1" fill="#1565C0"/>
+                  <rect x="5" y="5" width="11" height="11" rx="1" fill="white"/>
+                  <rect x="7" y="7" width="7" height="7" rx="1" fill="#1565C0"/>
+                  <rect x="22" y="3" width="15" height="15" rx="1" fill="#1565C0"/>
+                  <rect x="24" y="5" width="11" height="11" rx="1" fill="white"/>
+                  <rect x="26" y="7" width="7" height="7" rx="1" fill="#1565C0"/>
+                  <rect x="3" y="22" width="15" height="15" rx="1" fill="#1565C0"/>
+                  <rect x="5" y="24" width="11" height="11" rx="1" fill="white"/>
+                  <rect x="7" y="26" width="7" height="7" rx="1" fill="#1565C0"/>
+                  <rect x="22" y="22" width="4" height="4" fill="#1565C0"/>
+                  <rect x="28" y="22" width="4" height="4" fill="#1565C0"/>
+                  <rect x="22" y="28" width="4" height="4" fill="#1565C0"/>
+                  <rect x="28" y="28" width="4" height="4" fill="#1565C0"/>
+                  <rect x="34" y="22" width="3" height="3" fill="#1565C0"/>
+                  <rect x="22" y="34" width="3" height="3" fill="#1565C0"/>
+                  <rect x="34" y="34" width="3" height="3" fill="#1565C0"/>
+                </svg>
+              </div>
+              <div class="cartao-validade">
+                <span class="val-label">VÁLIDO ATÉ</span>
+                <span class="val-data">12/2026</span>
+              </div>
+            </div>
+            <div class="cartao-shine"></div>
+          </div>
+        </div>
+        <p class="cartao-preview-nota">🎨 Arte final personalizada com dados do associado</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ DOCUMENTOS / TRANSPARÊNCIA ═══════════════════ -->
+  <section class="section documentos" id="documentos">
+    <div class="container">
+      <div class="section-header light">
+        <div class="section-eyebrow eyebrow-light">Gestão Transparente</div>
+        <h2 class="section-title">Documentos <span class="highlight-light">Institucionais</span></h2>
+        <p class="section-desc" style="color:rgba(255,255,255,0.75)">O IREFIS preza pela transparência e governança responsável. Acesse os documentos oficiais do instituto.</p>
+      </div>
+
+      <div class="docs-grid">
+
+        <div class="doc-card">
+          <div class="doc-icon">📋</div>
+          <div class="doc-info">
+            <h3>Ata de Fundação</h3>
+            <p>Documento oficial que registra a criação e fundação do Instituto IREFIS, com ata completa da assembleia de fundação.</p>
+            <span class="doc-status pending">📌 PDF em preparação — será disponibilizado pela diretoria</span>
+          </div>
+          <button class="btn btn-doc-disabled" disabled>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+            Em breve
+          </button>
+        </div>
+
+        <div class="doc-card">
+          <div class="doc-icon">📜</div>
+          <div class="doc-info">
+            <h3>Estatuto Social</h3>
+            <p>Estatuto completo do Instituto IREFIS, contendo finalidade, estrutura, governança, direitos e deveres dos associados.</p>
+            <span class="doc-status pending">📌 PDF em preparação — será disponibilizado pela diretoria</span>
+          </div>
+          <button class="btn btn-doc-disabled" disabled>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+            Em breve
+          </button>
+        </div>
+
+        <div class="doc-card">
+          <div class="doc-icon">📊</div>
+          <div class="doc-info">
+            <h3>Relatório de Atividades</h3>
+            <p>Relatório anual das atividades realizadas, projetos desenvolvidos e resultados alcançados pelo instituto.</p>
+            <span class="doc-status pending">📌 Documento em elaboração pela diretoria</span>
+          </div>
+          <button class="btn btn-doc-disabled" disabled>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+            Em breve
+          </button>
+        </div>
+
+        <div class="doc-card">
+          <div class="doc-icon">📁</div>
+          <div class="doc-info">
+            <h3>Outros Documentos</h3>
+            <p>Espaço reservado para atas de reuniões, contratos, certidões e demais documentos institucionais aprovados pela diretoria.</p>
+            <span class="doc-status pending">📌 Documentos serão adicionados conforme aprovação da diretoria</span>
+          </div>
+          <button class="btn btn-doc-disabled" disabled>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+            Em breve
+          </button>
+        </div>
+
+      </div>
+
+      <div class="docs-aviso">
+        <span>🔒</span>
+        <p>Apenas documentos aprovados e autorizados pela diretoria do IREFIS serão publicados nesta seção. A transparência é um pilar da nossa gestão.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ CONTATO / LOCALIZAÇÃO ═══════════════════ -->
+  <section class="section contato bg-light" id="contato">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Fale Conosco</div>
+        <h2 class="section-title">Localização e <span class="highlight">Contato</span></h2>
+        <p class="section-desc">Estamos em Lagoa Santa, MG. Agende sua visita ou fale com a equipe agora mesmo.</p>
+      </div>
+
+      <div class="contato-grid">
+
+        <div class="contato-cards">
+          <a href="https://wa.me/5531900000000?text=Olá!%20Gostaria%20de%20informações%20sobre%20o%20IREFIS." target="_blank" class="contato-card whatsapp-card">
+            <div class="contato-card-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </div>
+            <div>
+              <strong>WhatsApp</strong>
+              <span>Atendimento e agendamentos</span>
+              <span class="contato-detail">(31) 9 0000-0000</span>
+            </div>
+          </a>
+
+          <div class="contato-card">
+            <div class="contato-card-icon endereco-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <strong>Endereço</strong>
+              <span>Lagoa Santa, Minas Gerais</span>
+              <span class="contato-detail">Endereço completo a ser informado</span>
+            </div>
+          </div>
+
+          <a href="https://instagram.com/irefis" target="_blank" class="contato-card">
+            <div class="contato-card-icon insta-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </div>
+            <div>
+              <strong>Instagram</strong>
+              <span>Siga o IREFIS</span>
+              <span class="contato-detail">@irefis (a confirmar)</span>
+            </div>
+          </a>
+
+          <div class="contato-card">
+            <div class="contato-card-icon hora-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <strong>Horário de Funcionamento</strong>
+              <span>Segunda a Sexta: 7h às 19h</span>
+              <span class="contato-detail">Sábado: 8h às 13h (a confirmar)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="mapa-placeholder">
+          <div class="mapa-inner">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#1565C0" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <strong>IREFIS — Lagoa Santa MG</strong>
+            <p>Mapa interativo será integrado com endereço oficial após confirmação da diretoria.</p>
+            <a href="https://maps.google.com/?q=Lagoa+Santa+MG" target="_blank" class="btn btn-outline-primary">Ver no Google Maps</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ CTA FINAL ═══════════════════ -->
+  <section class="section cta-final">
+    <div class="container cta-final-inner">
+      <img src="logo.jpg" alt="IREFIS" class="cta-logo" />
+      <h2>Pronto para cuidar da sua saúde?</h2>
+      <p>Entre em contato com o IREFIS e dê o primeiro passo rumo a uma vida com mais saúde, mobilidade e qualidade.</p>
+      <div class="cta-final-actions">
+        <a href="https://wa.me/5531900000000?text=Olá!%20Quero%20saber%20mais%20sobre%20o%20IREFIS." target="_blank" class="btn btn-whatsapp btn-lg">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Falar no WhatsApp
+        </a>
+        <a href="#socios" class="btn btn-outline-white btn-lg">Quero ser Sócio</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ FOOTER ═══════════════════ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="logo.jpg" alt="IREFIS" class="footer-logo" />
+        <div>
+          <strong>IREFIS</strong>
+          <small>Instituto de Reabilitação Fisiot em Saúde</small>
+          <small>Lagoa Santa · Minas Gerais</small>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Navegação</h4>
+        <a href="#sobre">Sobre o Instituto</a>
+        <a href="#tratamentos">Tratamentos</a>
+        <a href="#diretoria">Diretoria</a>
+        <a href="#leva-traz">Leva e Traz</a>
+        <a href="#socios">Sócios</a>
+        <a href="#documentos">Transparência</a>
+      </div>
+      <div class="footer-links">
+        <h4>Serviços</h4>
+        <a href="#tratamentos">Fisioterapia</a>
+        <a href="#tratamentos">Reabilitação Física</a>
+        <a href="#tratamentos">Pilates Terapêutico</a>
+        <a href="#leva-traz">Leva e Traz</a>
+        <a href="#cartao">Cartão do Associado</a>
+      </div>
+      <div class="footer-contato">
+        <h4>Contato</h4>
+        <a href="https://wa.me/5531900000000" target="_blank">📱 WhatsApp</a>
+        <a href="https://instagram.com/irefis" target="_blank">📸 Instagram</a>
+        <span>📍 Lagoa Santa, MG</span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© 2026 IREFIS — Instituto de Reabilitação Fisiot em Saúde. Todos os direitos reservados.</span>
+        <span class="footer-sparkz">Site desenvolvido por <strong>Sparkz Agency</strong></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Flutuante -->
+  <a href="https://wa.me/5531900000000?text=Olá!%20Gostaria%20de%20informações%20sobre%20o%20IREFIS." target="_blank" class="wa-float" aria-label="Falar no WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
