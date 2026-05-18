@@ -52,3 +52,31 @@ Complemento do cliente — Patrocinadores das Cartilhas / De Olho na Mama:
 - Escrever de forma profissional e simples, como convite para patrocínio institucional.
 - Usar grafia corrigida: "Seja patrocinador das cartilhas"; "Pedágios da Mama"; "contracapa e rodapé".
 - Não prometer exclusividade nem valores; CTA para falar com a equipe/diretoria pelo WhatsApp.
+
+Complemento do cliente — Conselho Fiscal:
+- Faltou incluir o 4º do Conselho Fiscal.
+- Lista do Conselho Fiscal deve contemplar: Presidente, Segundo, Terceiro, 4º e 5º do Conselho Fiscal.
+- Manter grafia profissional e consistente.
+
+Complemento do cliente — Remover diretor clínico:
+- Remover qualquer cargo/texto "Diretor Clínico" ou "diretor clínico" da área de diretoria, equipe, conselho, cards ou qualquer trecho do site.
+- Não substituir por outro cargo inventado; apenas remover esse item e ajustar a grade/layout para ficar natural.
+- Manter todos os demais cargos/departamentos já pedidos, incluindo Conselho Fiscal completo (Presidente, Segundo, Terceiro, 4º e 5º), Secretário, Contadora, Departamento Jurídico e Departamento Contábil.
+
+Complemento do cliente — telefone e Facebook:
+- Cliente disse: "Faltou 9". Interpretar como ajuste de telefone/WhatsApp: conferir os telefones visíveis e links wa.me para garantir que o celular esteja com o dígito 9 quando aplicável. Se houver telefone placeholder tipo (31) 0000-0000 ou sem 9, ajustar para formato celular com 9 a confirmar, sem inventar número real caso o número real não tenha sido fornecido.
+- Cliente disse: "Faltou o Facebook". Incluir Facebook nos contatos/redes sociais do IREFIS, ao lado de WhatsApp e Instagram. Se a URL oficial não foi informada, deixar como "Facebook (a confirmar)" / link preparado, sem inventar página real.
+
+Complemento definitivo — Telefone oficial:
+- Telefone/WhatsApp oficial informado pelo cliente: (31) 99259-4953.
+- Atualizar todos os telefones visíveis e links de WhatsApp/wa.me para esse número.
+- Formato visível preferido: (31) 99259-4953.
+- Link WhatsApp deve usar 5531992594953.
+- Substituir placeholders tipo (31) 9 0000-0000 ou números a confirmar por esse número real.
+
+Imagem enviada pelo cliente — Leva e Traz:
+- Usar a foto do carro do Leva e Traz enviada pelo Wilson na seção "Leva e Traz".
+- Arquivo local: /root/sparkz-projetos/irefis/referencias/foto-leva-e-traz-carro.jpg
+- Exibir como imagem do serviço/transporte, com bom enquadramento, sem cortar o carro nem distorcer.
+- Se necessário, substituir imagem/ilustração genérica existente dessa seção por esta foto.
+- Preservar legenda/copy institucional do serviço.
