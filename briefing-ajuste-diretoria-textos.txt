@@ -80,3 +80,41 @@ Imagem enviada pelo cliente — Leva e Traz:
 - Exibir como imagem do serviço/transporte, com bom enquadramento, sem cortar o carro nem distorcer.
 - Se necessário, substituir imagem/ilustração genérica existente dessa seção por esta foto.
 - Preservar legenda/copy institucional do serviço.
+
+Arquivo enviado pelo cliente:
+- PDF recebido: /root/sparkz-projetos/irefis/referencias/blue-classic-corporate-medical-logo-2.pdf
+- Nome original: Blue_Classic_Corporate_Medical_Logo__2_.pdf
+- Cliente escreveu junto: "promoção na cor Branca R$ 40,00 cada".
+- Interpretar como informação/arte de promoção a incorporar apenas se fizer sentido no contexto visual do PDF enviado; se o PDF for uma logo/arte, usar como referência visual/asset sem inventar dados adicionais.
+- Texto exato a considerar: Promoção na cor branca — R$ 40,00 cada.
+- Se incluir essa promoção no site, revisar para não conflitar com IREFIS/serviços já existentes e manter design institucional.
+
+Complemento do cliente — Promoção cor branca R$ 40,00:
+- Cliente enviou PDF/imagem: /root/sparkz-projetos/irefis/referencias/promocao-cor-branca-40.pdf
+- Versão renderizada para usar no site se necessário: /root/sparkz-projetos/irefis/referencias/promocao-cor-branca-40.png
+- Texto informado: "Promoção na cor branca — R$ 40,00 cada".
+- Incluir como um card/bloco promocional no contexto adequado do site, com design limpo e sem poluir o institucional.
+- Se o PDF for uma arte/logo/produto, usar a imagem renderizada como referência visual.
+- Não inventar prazo, estoque ou formas de pagamento. Não alterar os demais ajustes já aprovados.
+
+Complemento do cliente — Promoção camiseta branca:
+- Produto/promoção: Camiseta branca.
+- Preço: R$ 40,00 cada.
+- Para Lagoa Santa/MG: manter como R$ 40,00 cada.
+- Para qualquer outra região: acrescentar taxa/frete dos Correios.
+- Texto sugerido: "Camiseta branca — R$ 40,00 cada para Lagoa Santa/MG. Para outras regiões, acrescentar taxa dos Correios."
+- PDF recebido como referência/material: /root/sparkz-projetos/irefis/referencias/camiseta-branca-promocao.pdf
+- Não confundir com setup do site ou mensalidade; é item/promocional do IREFIS.
+
+Complemento do cliente — cálculo de taxa dos Correios para camisetas:
+- Cliente pediu: "Tem como colocar pra pessoa já calcular taxa dos correios".
+- Na seção/promoção da camiseta branca de R$ 40,00 cada, incluir um campo simples para a pessoa informar o CEP e calcular/estimar a taxa dos Correios.
+- Como site estático não deve inventar valor real de frete sem integração oficial. Implementar de forma segura:
+  1) campo CEP;
+  2) botão "Calcular frete";
+  3) mensagem informando que para Lagoa Santa/MG pode retirar/combinar entrega local, e para outras cidades a taxa dos Correios será confirmada pelo WhatsApp;
+  4) CTA que abre WhatsApp com mensagem pronta contendo produto, quantidade, CEP e pedido de cálculo do frete.
+- Se for possível usar API pública confiável sem chave apenas para buscar cidade/UF do CEP, pode preencher cidade/UF, mas não inventar preço de frete.
+- Texto claro: "Informe seu CEP para calcular a entrega" e "A equipe confirma o valor exato dos Correios pelo WhatsApp".
+- Preservar preço: camiseta branca R$ 40,00 cada.
+- Preservar telefone oficial: (31) 99259-4953 / wa.me 5531992594953.
