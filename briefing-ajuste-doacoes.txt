@@ -1,0 +1,28 @@
+Cliente: Wilson Barbosa
+Projeto: IREFIS — ajuste incremental: Doações + Doação de Profissionais
+URL atual: https://irefis.sparkz.agency
+
+Cliente pediu incluir item/seção de Doação no site e complementou: “Doação de profissionais”.
+
+Tarefa:
+Adicionar/ajustar seção “Doações” ou “Apoie o IREFIS” ao protótipo incluindo também doação de profissionais/serviços voluntários.
+
+Requisitos:
+1. Criar item no menu: “Doações” ou “Apoie”.
+2. Criar seção específica “Doações para o IREFIS”.
+3. Explicar que doações ajudam projetos de reabilitação, saúde, inclusão, transporte assistido/Leva e Traz, atendimento a pacientes e ações sociais.
+4. Cards de formas de apoiar:
+   - Doação única
+   - Doação mensal
+   - Doação de equipamentos/materiais
+   - Doação de profissionais / serviços voluntários
+   - Apoio empresarial
+5. Para “Doação de profissionais”, explicar de forma institucional:
+   - profissionais da saúde, fisioterapeutas, médicos, psicólogos, terapeutas, nutricionistas, educadores físicos, assistentes sociais e outros especialistas podem doar horas de atendimento, palestras, orientação, triagem, oficinas ou ações sociais.
+   - usar linguagem: “Doe seu conhecimento e ajude a transformar vidas”.
+   - CTA: “Quero doar meu trabalho profissional” / “Sou profissional e quero ajudar”.
+6. CTA principal: “Quero doar” / “Fazer doação pelo WhatsApp”.
+7. Não inventar chave PIX, CNPJ ou dados bancários. Usar placeholder claro: “Dados de doação serão informados pela diretoria”.
+8. Integrar com seções já existentes de Empresa Amiga, Parceiros e Sócios sem duplicar conteúdo.
+9. Manter visual institucional premium, compacto, sem ícones gigantes.
+10. Publicar no mesmo link https://irefis.sparkz.agency e fazer QA visual.
