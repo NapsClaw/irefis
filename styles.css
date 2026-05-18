@@ -1727,6 +1727,299 @@ button { cursor: pointer; font-family: inherit; }
 }
 .embaixadores-cta .btn { flex-shrink: 0; }
 
+/* ─── CAMPANHA DE REFERÊNCIA — DE OLHO NA MAMA ─── */
+.campanha-mama {
+  background: linear-gradient(160deg, #fff5f8 0%, #fce4ec 55%, #fdf2f8 100%);
+  position: relative;
+  overflow: hidden;
+}
+.campanha-mama::after {
+  content: '🎀';
+  position: absolute;
+  font-size: 280px;
+  opacity: 0.045;
+  right: -40px;
+  top: -30px;
+  pointer-events: none;
+  user-select: none;
+  line-height: 1;
+}
+
+.campanha-header {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 48px;
+}
+
+.campanha-ribbon-badge {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #AD1457;
+  background: rgba(173,20,87,0.10);
+  border: 1px solid rgba(173,20,87,0.28);
+  border-radius: 999px;
+  padding: 4px 14px;
+  margin-bottom: 14px;
+}
+
+.campanha-titulo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(2rem, 4.5vw, 3.2rem);
+  font-weight: 800;
+  color: #880E4F;
+  line-height: 1.15;
+  margin-bottom: 8px;
+}
+
+.campanha-subtitulo {
+  font-size: 1.08rem;
+  font-weight: 600;
+  color: #AD1457;
+  margin-bottom: 16px;
+  letter-spacing: 0.02em;
+}
+
+.campanha-desc {
+  color: var(--gray-600);
+  font-size: 1.02rem;
+  line-height: 1.72;
+}
+
+.campanha-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.45fr 1fr;
+  gap: 22px;
+  margin-bottom: 36px;
+  align-items: start;
+}
+
+.campanha-card {
+  background: #ffffff;
+  border-radius: var(--radius-md);
+  padding: 28px 24px;
+  box-shadow: 0 3px 18px rgba(173,20,87,0.07);
+  border: 1.5px solid rgba(173,20,87,0.09);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.campanha-card-destaque {
+  border-color: rgba(173,20,87,0.22);
+  box-shadow: 0 8px 32px rgba(173,20,87,0.11);
+}
+
+.campanha-card-icon {
+  font-size: 2.2rem;
+  line-height: 1;
+}
+
+.campanha-card h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: #880E4F;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  line-height: 1.3;
+}
+
+.campanha-card p {
+  color: var(--gray-600);
+  font-size: 0.93rem;
+  line-height: 1.67;
+}
+
+.tag-gratuita {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: #AD1457;
+  background: rgba(173,20,87,0.10);
+  border: 1px solid rgba(173,20,87,0.24);
+  border-radius: 999px;
+  padding: 3px 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Pilares internos do card 1 */
+.campanha-pilares {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  padding-top: 4px;
+}
+.campanha-pilares li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: var(--gray-600);
+}
+.cp-icon { font-size: 1.1rem; flex-shrink: 0; margin-top: 1px; }
+
+/* Formatos da cartilha */
+.cartilha-formato-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.cartilha-formato {
+  background: #fff0f5;
+  border-radius: var(--radius-sm);
+  padding: 14px 12px;
+  text-align: center;
+  border: 1px solid rgba(173,20,87,0.13);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+.cartilha-formato > span { font-size: 1.6rem; }
+.cartilha-formato strong { font-size: 0.85rem; color: #880E4F; font-weight: 700; }
+.cartilha-formato p { font-size: 0.76rem !important; color: var(--gray-400); margin: 0 !important; line-height: 1.4; }
+
+/* Aviso cartilha pendente */
+.cartilha-pendente {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  background: #fffde7;
+  border: 1px solid #ffe082;
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+}
+.cartilha-pending-icon { font-size: 1.15rem; flex-shrink: 0; line-height: 1.5; }
+.cartilha-pendente strong {
+  font-size: 0.87rem;
+  color: #5D4037;
+  display: block;
+  margin-bottom: 3px;
+}
+.cartilha-pendente p { font-size: 0.81rem !important; color: #795548; margin: 0 !important; line-height: 1.5; }
+
+/* Botões da cartilha */
+.cartilha-btns {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.btn-cartilha-pending {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: var(--gray-100);
+  color: var(--gray-400);
+  border: 1.5px solid var(--gray-200);
+  border-radius: 999px;
+  padding: 10px 18px;
+  font-size: 0.83rem;
+  font-weight: 600;
+  cursor: not-allowed;
+  opacity: 0.72;
+}
+
+.btn-mama-wa {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: #AD1457;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  padding: 10px 18px;
+  font-size: 0.83rem;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  transition: background var(--transition), box-shadow var(--transition);
+}
+.btn-mama-wa:hover {
+  background: #880E4F;
+  box-shadow: 0 4px 16px rgba(173,20,87,0.3);
+}
+
+/* Lista de como participar */
+.campanha-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+}
+.campanha-lista li {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  font-size: 0.91rem;
+  color: var(--gray-600);
+  line-height: 1.55;
+}
+
+/* CTA da campanha */
+.campanha-cta {
+  background: linear-gradient(135deg, #880E4F 0%, #C2185B 100%);
+  border-radius: var(--radius-md);
+  padding: 34px 40px;
+  color: white;
+}
+
+.campanha-cta-inner {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.campanha-cta-icon { font-size: 3rem; flex-shrink: 0; }
+
+.campanha-cta-text { flex: 1; }
+
+.campanha-cta-text h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.campanha-cta-text p {
+  font-size: 0.95rem;
+  opacity: 0.88;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.btn-pink-wa {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: white;
+  color: #880E4F;
+  border: none;
+  border-radius: 999px;
+  padding: 14px 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: background var(--transition), box-shadow var(--transition);
+}
+.btn-pink-wa:hover {
+  background: #fce4ec;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+/* nav link campanha */
+.nav-campanha { color: #F48FB1 !important; }
+.nav-campanha:hover { color: white !important; }
+
 /* ═══ RESPONSIVE ═══ */
 @media (max-width: 1024px) {
   .footer-inner { grid-template-columns: 1fr 1fr; gap: 36px; }
@@ -1755,6 +2048,9 @@ button { cursor: pointer; font-family: inherit; }
   .embaixadores-grid { grid-template-columns: repeat(3, 1fr); }
   .parceiros-grid { grid-template-columns: repeat(2, 1fr); }
   .doacoes-grid { grid-template-columns: repeat(2, 1fr); }
+  /* campanha */
+  .campanha-grid { grid-template-columns: 1fr; }
+  .campanha-mama::after { font-size: 180px; right: -20px; top: -20px; }
 }
 @media (max-width: 768px) {
   .section { padding-block: 48px; }
@@ -1764,6 +2060,11 @@ button { cursor: pointer; font-family: inherit; }
   .embaixadores-cta-inner { flex-direction: column; text-align: center; gap: 20px; }
   .embaixadores-cta p { max-width: 100%; }
   .embaixadores-cta .btn { width: 100%; justify-content: center; }
+  /* campanha */
+  .campanha-cta { padding: 28px 24px; }
+  .campanha-cta-inner { flex-direction: column; text-align: center; gap: 20px; }
+  .campanha-cta-text p { max-width: 100%; }
+  .btn-pink-wa { width: 100%; justify-content: center; }
   .nav-toggle { display: flex; }
   .nav-menu {
     position: fixed;
