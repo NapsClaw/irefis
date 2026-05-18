@@ -680,57 +680,33 @@ button { cursor: pointer; font-family: inherit; }
 .leva-lista li { display: flex; align-items: flex-start; gap: 10px; font-size: 0.92rem; color: var(--gray-700, #3d4a5c); }
 .leva-check { flex-shrink: 0; }
 
-.leva-visual { display: flex; justify-content: center; }
-.leva-card-visual {
+.leva-visual { display: flex; justify-content: center; align-items: flex-start; }
+
+/* ── Foto real do veículo Leva e Traz ── */
+.leva-foto-wrapper {
   background: var(--white);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-lg);
-  padding: 28px 28px;
-  text-align: center;
   border: 2px solid var(--gray-200);
+  overflow: hidden;
   width: 100%;
-  max-width: 320px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
+  max-width: 480px;
+  text-align: center;
 }
-.leva-icon-big { font-size: 2.5rem; }
-.leva-route {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-  width: 100%;
-}
-.leva-route-point {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  background: var(--gray-50);
-  border: 1px solid var(--gray-200);
-  border-radius: var(--radius-sm);
-  padding: 12px 20px;
-  width: 100%;
-  font-weight: 600;
-  font-size: 0.9rem;
-}
-.leva-route-point.home { border-left: 3px solid var(--blue); }
-.leva-route-point.clinic { border-left: 3px solid var(--cyan); }
-.route-icon { font-size: 1.2rem; }
-.leva-route-line {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 4px;
-}
-.route-dots {
+.leva-foto {
   display: block;
-  width: 2px;
-  height: 30px;
-  background: repeating-linear-gradient(to bottom, var(--blue) 0, var(--blue) 5px, transparent 5px, transparent 10px);
+  width: 100%;
+  height: auto;          /* proporcional — carro inteiro, sem corte */
+  object-fit: contain;   /* nunca distorce */
+  background: var(--gray-50);
 }
-.leva-card-desc { font-size: 0.85rem; color: var(--gray-600); font-style: italic; }
+.leva-card-desc {
+  font-size: 0.85rem;
+  color: var(--gray-600);
+  font-style: italic;
+  padding: 10px 16px 12px;
+  margin: 0;
+}
 
 /* ─── SÓCIOS ─── */
 .socios-grid {
