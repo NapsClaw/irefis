@@ -168,13 +168,13 @@ button { cursor: pointer; font-family: inherit; }
   z-index: 1000;
   background: transparent;
   transition: background var(--transition), box-shadow var(--transition);
-  padding-block: 16px;
+  padding-block: 12px;
 }
 .navbar.scrolled {
   background: rgba(13,71,161,0.97);
   backdrop-filter: blur(16px);
   box-shadow: 0 2px 20px rgba(0,0,0,0.2);
-  padding-block: 10px;
+  padding-block: 8px;
 }
 .nav-inner {
   display: flex;
@@ -185,31 +185,35 @@ button { cursor: pointer; font-family: inherit; }
 .nav-logo {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
+  flex-shrink: 0;
 }
 .nav-logo-img {
-  width: 44px;
-  height: 44px;
+  width: 56px;
+  height: 56px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid rgba(255,255,255,0.3);
+  border: 2.5px solid rgba(255,255,255,0.4);
+  box-shadow: 0 0 0 3px rgba(255,255,255,0.1);
+  flex-shrink: 0;
 }
 .nav-logo-text {
   display: flex;
   flex-direction: column;
-  line-height: 1.2;
+  line-height: 1.25;
 }
 .nav-logo-text strong {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 800;
   color: var(--white);
-  letter-spacing: 0.05em;
+  letter-spacing: 0.06em;
 }
 .nav-logo-text small {
-  font-size: 0.65rem;
-  color: rgba(255,255,255,0.7);
-  font-weight: 400;
+  font-size: 0.72rem;
+  color: rgba(255,255,255,0.78);
+  font-weight: 500;
+  letter-spacing: 0.01em;
 }
 .nav-menu {
   display: flex;
@@ -1693,6 +1697,10 @@ button { cursor: pointer; font-family: inherit; }
 /* ═══ RESPONSIVE ═══ */
 @media (max-width: 1024px) {
   .footer-inner { grid-template-columns: 1fr 1fr; gap: 36px; }
+  /* logo ligeiramente menor em telas médias para o menu caber */
+  .nav-logo-img { width: 50px; height: 50px; }
+  .nav-logo-text strong { font-size: 1.15rem; }
+  .nav-menu a { font-size: 0.75rem; padding: 5px 8px; }
 }
 @media (max-width: 900px) {
   .sobre-inner  { grid-template-columns: 1fr; gap: 32px; }
@@ -1742,6 +1750,8 @@ button { cursor: pointer; font-family: inherit; }
     text-align: center;
   }
   .nav-wa { font-size: 1rem !important; }
+  .nav-logo-img { width: 42px; height: 42px; }
+  .nav-logo-text strong { font-size: 1.05rem; }
   .nav-logo-text small { display: none; }
   .palavra-diretoria { padding: 28px 24px; }
   .diretores-grid { grid-template-columns: 1fr; }
