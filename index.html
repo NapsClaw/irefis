@@ -34,6 +34,7 @@
         <a href="#parceiros">Parceiros</a>
         <a href="#embaixadores">Embaixadores</a>
         <a href="#campanha-mama" class="nav-campanha">🎀 Campanha</a>
+        <a href="#promocao-camiseta" class="nav-promo">👕 Promoção</a>
         <a href="#doacoes" class="nav-apoie">❤️ Apoie</a>
         <a href="#documentos">Transparência</a>
         <a href="#contato">Contato</a>
@@ -1196,6 +1197,126 @@
     </div>
   </section>
 
+  <!-- ═══════════════════ PROMOÇÃO — CAMISETA BRANCA ═══════════════════ -->
+  <section class="section promocao-camiseta" id="promocao-camiseta">
+    <div class="container">
+
+      <div class="promo-header">
+        <div class="promo-ribbon-badge">🏷️ Promoção Especial</div>
+        <h2 class="promo-titulo">👕 Camiseta Branca <span class="promo-titulo-irefis">IREFIS</span></h2>
+        <p class="promo-subtitulo">Produto oficial do instituto — adquira a sua e apoie a missão do IREFIS</p>
+      </div>
+
+      <div class="promo-inner">
+
+        <!-- VISUAL -->
+        <div class="promo-visual">
+          <div class="promo-img-wrap">
+            <img
+              src="camiseta-promo.png"
+              alt="Promoção Camiseta Branca IREFIS — R$ 40,00"
+              class="promo-img"
+              onerror="this.style.display='none'; this.parentElement.querySelector('.promo-img-fallback').style.display='flex';"
+            />
+            <div class="promo-img-fallback" style="display:none">
+              <div class="promo-shirt-icon">
+                <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="120" height="120" rx="16" fill="#f0f4ff"/>
+                  <path d="M40 28 Q60 18 80 28 L95 50 L78 55 L78 95 H42 L42 55 L25 50 Z" fill="white" stroke="#1565C0" stroke-width="2.5" stroke-linejoin="round"/>
+                  <path d="M40 28 Q50 38 60 38 Q70 38 80 28" fill="none" stroke="#1565C0" stroke-width="2"/>
+                </svg>
+              </div>
+              <span>Camiseta Branca IREFIS</span>
+            </div>
+          </div>
+          <div class="promo-badge-preco">
+            <span class="promo-preco-valor">R$&nbsp;40<span class="promo-preco-cents">,00</span></span>
+            <span class="promo-preco-label">cada</span>
+          </div>
+        </div>
+
+        <!-- DETALHES -->
+        <div class="promo-detalhes">
+          <div class="promo-det-box">
+            <div class="promo-det-item destaque-local">
+              <span class="promo-det-icon">📍</span>
+              <div>
+                <strong>Lagoa Santa / MG</strong>
+                <p>R$ 40,00 cada — entrega local sem custo adicional de frete.</p>
+              </div>
+            </div>
+            <div class="promo-det-item">
+              <span class="promo-det-icon">📦</span>
+              <div>
+                <strong>Outras regiões</strong>
+                <p>R$ 40,00 + taxa dos Correios (calculada no momento do pedido).</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="promo-info-box">
+            <span class="promo-info-icon">ℹ️</span>
+            <p><strong>Camiseta branca — R$ 40,00 cada para Lagoa Santa/MG.</strong><br>
+            Para outras regiões, acrescentar taxa dos Correios.</p>
+          </div>
+
+          <!-- ═══ CALCULADORA DE FRETE ═══ -->
+          <div class="frete-calc-box" id="freteCalcBox">
+            <div class="frete-calc-header">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1565C0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13" rx="2"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+              <h4>Calcular entrega</h4>
+            </div>
+            <p class="frete-calc-desc">Informe seu CEP e a quantidade para calcular a entrega da sua camiseta.</p>
+
+            <div class="frete-form-row">
+              <div class="frete-field">
+                <label for="freteCep" class="frete-label">CEP</label>
+                <input
+                  type="text"
+                  id="freteCep"
+                  class="frete-input"
+                  placeholder="00000-000"
+                  maxlength="9"
+                  inputmode="numeric"
+                  autocomplete="postal-code"
+                />
+              </div>
+              <div class="frete-field frete-field-qty">
+                <label for="freteQtd" class="frete-label">Quantidade</label>
+                <input
+                  type="number"
+                  id="freteQtd"
+                  class="frete-input frete-input-qty"
+                  value="1"
+                  min="1"
+                  max="99"
+                />
+              </div>
+              <button id="btnCalcularFrete" class="btn btn-frete-calc">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+                <span id="btnFreteLabel">Calcular Frete</span>
+              </button>
+            </div>
+
+            <!-- Resultado dinâmico -->
+            <div id="freteResultado" class="frete-resultado" role="alert"></div>
+
+            <!-- CTA WhatsApp dinâmico -->
+            <div id="freteCtaWa" class="frete-cta-wa"></div>
+
+            <p class="frete-calc-aviso">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              A equipe do IREFIS confirma o valor exato do frete pelo WhatsApp antes de fechar o pedido.
+            </p>
+          </div>
+
+          <p class="promo-nota">* Produto do Instituto IREFIS. Pedidos sujeitos à disponibilidade de estoque. Para Lagoa Santa/MG: R$ 40,00 cada, sem custo de frete. Para outras regiões: R$ 40,00 + taxa dos Correios a confirmar.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
   <!-- ═══════════════════ DOCUMENTOS / TRANSPARÊNCIA ═══════════════════ -->
   <section class="section documentos" id="documentos">
     <div class="container">
@@ -1387,6 +1508,7 @@
         <a href="#empresa-amiga">Empresa Amiga</a>
         <a href="#embaixadores">Embaixadores</a>
         <a href="#campanha-mama">🎀 Campanha</a>
+        <a href="#promocao-camiseta">👕 Promoção Camiseta</a>
         <a href="#doacoes">Doações</a>
         <a href="#documentos">Transparência</a>
       </div>

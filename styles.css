@@ -2138,6 +2138,273 @@ button { cursor: pointer; font-family: inherit; }
 .nav-campanha { color: #F48FB1 !important; }
 .nav-campanha:hover { color: white !important; }
 
+/* nav link promoção */
+.nav-promo { padding: 5px 11px !important; background: rgba(255,193,7,0.18) !important; color: #FFD54F !important; border-radius: 8px !important; font-weight: 700 !important; }
+.nav-promo:hover { background: rgba(255,193,7,0.32) !important; color: white !important; }
+
+/* ─── PROMOÇÃO CAMISETA BRANCA ─── */
+.promocao-camiseta {
+  background: linear-gradient(135deg, #0D2959 0%, #1a3f80 40%, #0d3a6b 100%);
+  position: relative;
+  overflow: hidden;
+}
+.promocao-camiseta::before {
+  content: '👕';
+  position: absolute;
+  font-size: 260px;
+  right: -30px;
+  top: -30px;
+  opacity: 0.06;
+  pointer-events: none;
+  line-height: 1;
+}
+
+.promo-header {
+  text-align: center;
+  margin-bottom: 48px;
+  position: relative;
+  z-index: 1;
+}
+.promo-ribbon-badge {
+  display: inline-block;
+  background: rgba(255,193,7,0.22);
+  color: #FFD54F;
+  border: 1px solid rgba(255,193,7,0.4);
+  border-radius: 999px;
+  padding: 6px 20px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.promo-titulo {
+  font-size: clamp(1.7rem, 4vw, 2.6rem);
+  font-weight: 800;
+  color: var(--white);
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+.promo-titulo-irefis {
+  color: #FFD54F;
+}
+.promo-subtitulo {
+  font-size: 1.05rem;
+  color: rgba(255,255,255,0.75);
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.promo-inner {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 48px;
+  align-items: start;
+  position: relative;
+  z-index: 1;
+}
+
+/* VISUAL */
+.promo-visual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.promo-img-wrap {
+  width: 100%;
+  max-width: 380px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.promo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+.promo-img-fallback {
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 32px;
+  text-align: center;
+  color: var(--blue-primary);
+  font-weight: 600;
+}
+.promo-shirt-icon svg { width: 120px; height: 120px; }
+
+.promo-badge-preco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #FFD54F, #FFC107);
+  color: #1a2a4a;
+  border-radius: 18px;
+  padding: 18px 36px;
+  box-shadow: 0 8px 30px rgba(255,193,7,0.4);
+  text-align: center;
+}
+.promo-preco-valor {
+  font-size: 2.8rem;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+.promo-preco-cents {
+  font-size: 1.5rem;
+  font-weight: 700;
+  vertical-align: super;
+  margin-left: 2px;
+}
+.promo-preco-label {
+  font-size: 1rem;
+  font-weight: 700;
+  opacity: 0.8;
+  margin-top: 2px;
+}
+
+/* DETALHES */
+.promo-detalhes {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.promo-det-box {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 16px;
+  overflow: hidden;
+}
+.promo-det-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 18px 22px;
+}
+.promo-det-item + .promo-det-item {
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+.promo-det-item.destaque-local {
+  background: rgba(255,193,7,0.1);
+}
+.promo-det-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.promo-det-item strong {
+  display: block;
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.promo-det-item p {
+  color: rgba(255,255,255,0.72);
+  font-size: 0.9rem;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.promo-info-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  background: rgba(255,255,255,0.1);
+  border-left: 4px solid #FFD54F;
+  border-radius: 0 12px 12px 0;
+  padding: 16px 20px;
+}
+.promo-info-icon { font-size: 1.4rem; flex-shrink: 0; margin-top: 1px; }
+.promo-info-box p {
+  color: rgba(255,255,255,0.88);
+  font-size: 0.95rem;
+  margin: 0;
+  line-height: 1.6;
+}
+.promo-info-box strong { color: var(--white); }
+
+.promo-como-pedir h4 {
+  color: #FFD54F;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-bottom: 14px;
+}
+.promo-passos {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.promo-passos li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  color: rgba(255,255,255,0.82);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+.passo-num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 26px;
+  height: 26px;
+  background: rgba(255,193,7,0.25);
+  border: 1px solid rgba(255,193,7,0.5);
+  border-radius: 50%;
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: #FFD54F;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.btn-promo-wa {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #25D366;
+  color: white;
+  padding: 16px 32px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 1.05rem;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all var(--transition);
+  box-shadow: 0 6px 24px rgba(37,211,102,0.35);
+  width: 100%;
+  text-align: center;
+}
+.btn-promo-wa:hover {
+  background: #1da850;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 32px rgba(37,211,102,0.5);
+  color: white;
+}
+
+.promo-nota {
+  font-size: 0.76rem;
+  color: rgba(255,255,255,0.45);
+  margin: 0;
+  line-height: 1.5;
+  text-align: center;
+}
+
 /* ═══ RESPONSIVE ═══ */
 @media (max-width: 1024px) {
   .footer-inner { grid-template-columns: 1fr 1fr; gap: 36px; }
@@ -2173,6 +2440,11 @@ button { cursor: pointer; font-family: inherit; }
   /* patrocinador */
   .patrocinador-bens-grid { grid-template-columns: 1fr; }
   .patrocinador-mama { padding: 28px 24px; }
+  /* promoção camiseta */
+  .promo-inner { grid-template-columns: 1fr; gap: 32px; }
+  .promo-visual { order: -1; }
+  .promo-img-wrap { max-width: 300px; }
+  .promocao-camiseta::before { font-size: 160px; right: -10px; top: -10px; }
 }
 @media (max-width: 768px) {
   .section { padding-block: 48px; }
@@ -2244,4 +2516,7 @@ button { cursor: pointer; font-family: inherit; }
   .selo-amiga { width: 126px; height: 126px; }
   .selo-inner { width: 96px; height: 96px; }
   .doacoes-grid { grid-template-columns: 1fr 1fr; }
+  /* promoção */
+  .promo-badge-preco { padding: 14px 24px; }
+  .promo-preco-valor { font-size: 2.2rem; }
 }
