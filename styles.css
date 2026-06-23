@@ -664,6 +664,49 @@ button { cursor: pointer; font-family: inherit; }
   margin-top: 8px;
 }
 
+/* ─── DIRETORIA: cards com dados reais (v2.6 — 2026-06-23) ─── */
+.diretor-card.ativo {
+  border-style: solid;
+  border-color: rgba(255,255,255,0.28);
+  background: rgba(255,255,255,0.12);
+}
+.diretor-foto-real {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2.5px solid rgba(255,255,255,0.35);
+  flex-shrink: 0;
+}
+.diretor-foto-real img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+}
+.diretor-iniciais {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.14);
+  border: 2px solid rgba(255,255,255,0.28);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: rgba(255,255,255,0.82);
+  letter-spacing: 0.04em;
+  flex-shrink: 0;
+}
+.diretor-info .diretor-profissao {
+  color: rgba(255,255,255,0.38);
+  font-size: 0.70rem;
+  font-style: italic;
+}
+
 /* ─── LEVA E TRAZ ─── */
 .leva-inner {
   display: grid;
