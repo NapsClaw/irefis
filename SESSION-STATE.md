@@ -1,11 +1,25 @@
+# SESSION-STATE IREFIS — atualizado 2026-06-24
 
-- 2026-06-24: Wilson reportou que falta a foto da Presidente Keila no site IREFIS; corrigir card da Presidente usando foto-keila-simone-frade-marques-2026-06-23.jpg e QA visual antes de confirmar.
+## Versão ao vivo: v2.11
 
-- 2026-06-24: Wilson perguntou “E a tesoureira” durante revisão da diretoria; confirmar/garantir Fabiana Rodrigues Caires Lobato como Tesoureira/Contadora. Foto da tesoureira ainda não foi identificada/enviada claramente.
+### Último deploy: 2026-06-24 ~18:04 UTC
+- **Foto Fabiana nova (v2.11)**: dir-fabiana.jpg substituído por foto-fabiana-correta-whatsapp-2026-06-24.jpg (98K, hash 9c92a7b2)
+- Cache-bust `?v=20260624-fabiana-nova` em 2 pontos: Tesoureira (Diretoria Executiva) + Departamento Contábil
+- Vanessa preservada como 1ª Suplente do Conselho Fiscal (dir-vanessa.jpg, hash fa2cdcb5, 80K)
+- QA real confirmado: HTML com fabiana-nova, imagem 98K correta ao vivo
 
-- 2026-06-24: Wilson perguntou “E restante do conselho fiscal”; garantir que o Conselho Fiscal completo apareça: Joelma Alves de Lima Souza (Presidente/Fisioterapeuta), Tamara Campos Nogueira (Vice-presidente/Supervisor Comercial), Vanessa Batista de Souza (1ª Suplente/Assistente Social), Ivani Anunciada de Souza Satil (2ª Suplente/Vendedora), Alexandre Satil Teixeira (3º Suplente/Porteiro).
+### Histórico de versões
+- v2.10: foto Fabiana (53K) — substituída em v2.11 por nova foto enviada Wilson 2026-06-24
+- v2.9: logo novo publicado
+- v2.8 e anteriores: diretoria, Keila, Vanessa, etc.
 
-- 2026-06-24: IREFIS diretoria publicada e QA público confirmado em https://irefis.sparkz.agency/?v=20260624-final-qa: Presidente Keila com foto real, Tesoureira Fabiana Rodrigues Caires Lobato/Contadora, Conselho Fiscal completo (Joelma, Tamara, Vanessa, Ivani, Alexandre) e sem “Nome a confirmar”.
+### Estado do site
+- URL: https://irefis.sparkz.agency
+- Logo: logo-novo.jpg (crop centrado 738×738)
+- Diretoria Executiva: Keila (Presidente), Wilson (Vice), Antônio Carlos (Secretário), Fabiana (Tesoureira/Contadora)
+- Conselho Fiscal: Joelma (Presidente CF), Tamara (Vice CF), Vanessa (1ª Suplente), Ivani (2ª Suplente), Alexandre (3º Suplente)
+- Departamentos: Jurídico (pendente confirmar), Contábil (Fabiana)
+- Departamento Jurídico: a confirmar — card com placeholder ativo
 
-- 2026-06-24: Wilson pediu troca do logo pelo novo logo enviado via WhatsApp (logo-irefis-novo-2026-06-24.jpg). Logo processado (crop central 738×738), aplicado nos 8 pontos do site com cache-bust ?v=20260624-logo-final. IREFIS v2.9 publicado e QA ao vivo confirmado em https://irefis.sparkz.agency/?v=20260624-logo-final.
-- 2026-06-24: IREFIS v2.10 — Correção urgente foto Fabiana: dir-fabiana.jpg estava com a foto da Vanessa (mesmo hash/arquivo). Substituído pela foto correta reenviada (foto-fabiana-correta-reenviada-2026-06-24.enc era JPEG válido 53K). Cache-bust ?v=20260624-fabiana-ok aplicado. QA ao vivo confirmado: fotos Fabiana e Vanessa são distintas, Fabiana na Tesoureira/Dep.Contábil, Vanessa só no Conselho Fiscal como 1ª Suplente. Logo novo preservado.
+### Pendências
+- Departamento Jurídico: responsável ainda a confirmar (Wilson avisará)
