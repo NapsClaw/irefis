@@ -251,6 +251,42 @@
     });
   })();
 
+  /* ─── Copiar chave PIX ─── */
+  (function () {
+    const btn = document.getElementById('btnCopiarPix');
+    if (!btn) return;
+    const chave = btn.getAttribute('data-pix') || '';
+    const txt = btn.querySelector('.btn-copiar-txt');
+    const original = txt ? txt.textContent : 'Copiar chave';
+
+    btn.addEventListener('click', async () => {
+      try {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          await navigator.clipboard.writeText(chave);
+        } else {
+          const tmp = document.createElement('textarea');
+          tmp.value = chave;
+          tmp.style.position = 'fixed';
+          tmp.style.opacity = '0';
+          document.body.appendChild(tmp);
+          tmp.focus();
+          tmp.select();
+          document.execCommand('copy');
+          document.body.removeChild(tmp);
+        }
+        btn.classList.add('copiado');
+        if (txt) txt.textContent = 'Chave copiada!';
+        setTimeout(() => {
+          btn.classList.remove('copiado');
+          if (txt) txt.textContent = original;
+        }, 2200);
+      } catch (e) {
+        if (txt) txt.textContent = 'Copie manualmente';
+        setTimeout(() => { if (txt) txt.textContent = original; }, 2200);
+      }
+    });
+  })();
+
   console.log('%cIREFIS — Site institucional | Desenvolvido por Sparkz Agency',
     'color:#00ACC1;font-weight:bold;font-size:13px;');
 })();

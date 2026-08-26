@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=2.0" />
+  <link rel="stylesheet" href="styles.css?v=20260826-contato-oficial" />
 </head>
 <body>
 
@@ -1216,20 +1216,40 @@
 
       </div>
 
-      <div class="doacoes-aviso">
-        <span>💳</span>
-        <div>
-          <strong>Dados bancários para doação</strong>
-          <p>Chave PIX, CNPJ e dados bancários serão informados diretamente pela diretoria do IREFIS após o contato pelo WhatsApp. Não publicamos dados bancários abertamente por segurança.</p>
+      <div class="pix-oficial-card">
+        <div class="pix-oficial-qr">
+          <img src="pix-oficial-irefis.jpg" alt="QR Code PIX oficial do IREFIS" loading="lazy" />
+          <span class="pix-oficial-qr-tag">QR Code oficial</span>
+        </div>
+        <div class="pix-oficial-info">
+          <span class="pix-oficial-eyebrow">💳 PIX Oficial do IREFIS</span>
+          <h3>Doe agora via PIX</h3>
+          <p>Abra o app do seu banco, aponte a câmera para o QR Code ao lado ou copie a chave abaixo para fazer sua doação com segurança.</p>
+
+          <div class="pix-chave-box">
+            <div class="pix-chave-texto">
+              <small>Chave PIX (telefone) — IREFIS</small>
+              <strong id="pixChave">(31) 98055-0930</strong>
+            </div>
+            <button type="button" class="btn-copiar-pix" id="btnCopiarPix" data-pix="+5531980550930">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+              <span class="btn-copiar-txt">Copiar chave</span>
+            </button>
+          </div>
+
+          <p class="pix-oficial-atencao">⚠️ Esta chave é exclusiva para <strong>PIX</strong> — não é o número de WhatsApp do IREFIS. Após a doação, envie o comprovante para o WhatsApp de atendimento abaixo.</p>
+
+          <a href="https://wa.me/5531992594953?text=Olá!%20Acabei%20de%20fazer%20uma%20doação%20via%20PIX%20para%20o%20IREFIS%20e%20vou%20enviar%20o%20comprovante." target="_blank" class="btn btn-whatsapp pix-oficial-wa">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Enviar comprovante pelo WhatsApp
+          </a>
+
+          <p class="pix-oficial-cnpj">Instituto de Reabilitação Fisiot em Saúde — CNPJ 68.387.204/0001-60</p>
         </div>
       </div>
 
       <div class="doacoes-cta">
-        <a href="https://wa.me/5531992594953?text=Olá!%20Gostaria%20de%20fazer%20uma%20doação%20ao%20IREFIS.%20Pode%20me%20informar%20os%20dados%20para%20contribuição%3F" target="_blank" class="btn btn-whatsapp btn-lg">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          Fazer Doação pelo WhatsApp
-        </a>
-        <p class="doacoes-cta-sub">Nossa equipe responderá com todos os dados necessários para sua contribuição.</p>
+        <p class="doacoes-cta-sub">Dúvidas sobre doação de equipamentos, materiais ou apoio empresarial? Fale direto com nossa equipe pelo WhatsApp.</p>
       </div>
 
     </div>
@@ -1450,16 +1470,27 @@
             </div>
           </a>
 
-          <div class="contato-card">
+          <a href="https://maps.google.com/?q=Rua+Dr.+Benjamim+Vieira,+27,+Joana+D%27Arc,+Lagoa+Santa+MG,+33239-238" target="_blank" class="contato-card">
             <div class="contato-card-icon endereco-icon">
               <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
             </div>
             <div>
               <strong>Endereço</strong>
-              <span>Lagoa Santa, Minas Gerais</span>
-              <span class="contato-detail">Endereço completo a ser informado</span>
+              <span>Rua Dr. Benjamim Vieira, 27 — Joana D'Arc</span>
+              <span class="contato-detail">Lagoa Santa/MG — CEP 33239-238</span>
             </div>
-          </div>
+          </a>
+
+          <a href="mailto:irefis2026@gmail.com" class="contato-card">
+            <div class="contato-card-icon email-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6z"/><path d="M22 6l-10 7L2 6"/></svg>
+            </div>
+            <div>
+              <strong>E-mail</strong>
+              <span>Fale por e-mail</span>
+              <span class="contato-detail">irefis2026@gmail.com</span>
+            </div>
+          </a>
 
           <a href="https://instagram.com/irefis" target="_blank" class="contato-card">
             <div class="contato-card-icon insta-icon">
@@ -1499,8 +1530,8 @@
           <div class="mapa-inner">
             <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#1565C0" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
             <strong>IREFIS — Lagoa Santa MG</strong>
-            <p>Mapa interativo será integrado com endereço oficial após confirmação da diretoria.</p>
-            <a href="https://maps.google.com/?q=Lagoa+Santa+MG" target="_blank" class="btn btn-outline-primary">Ver no Google Maps</a>
+            <p>Rua Dr. Benjamim Vieira, 27 — Joana D'Arc, Lagoa Santa/MG — CEP 33239-238</p>
+            <a href="https://maps.google.com/?q=Rua+Dr.+Benjamim+Vieira,+27,+Joana+D%27Arc,+Lagoa+Santa+MG,+33239-238" target="_blank" class="btn btn-outline-primary">Ver no Google Maps</a>
           </div>
         </div>
 
@@ -1533,6 +1564,7 @@
           <strong>IREFIS</strong>
           <small>Instituto de Reabilitação Fisiot em Saúde</small>
           <small>Lagoa Santa · Minas Gerais</small>
+          <small>CNPJ 68.387.204/0001-60</small>
         </div>
       </div>
       <div class="footer-links">
@@ -1561,14 +1593,15 @@
       <div class="footer-contato">
         <h4>Contato</h4>
         <a href="https://wa.me/5531992594953" target="_blank">📱 WhatsApp: (31) 99259-4953</a>
+        <a href="mailto:irefis2026@gmail.com">✉️ irefis2026@gmail.com</a>
         <a href="https://instagram.com/irefis" target="_blank">📸 Instagram</a>
         <a href="https://facebook.com/irefis" target="_blank">👍 Facebook (a confirmar)</a>
-        <span>📍 Lagoa Santa, MG</span>
+        <span>📍 Rua Dr. Benjamim Vieira, 27 — Joana D'Arc, Lagoa Santa/MG — CEP 33239-238</span>
       </div>
     </div>
     <div class="footer-bottom">
       <div class="container">
-        <span>© 2026 IREFIS — Instituto de Reabilitação Fisiot em Saúde. Todos os direitos reservados.</span>
+        <span>© 2026 IREFIS — Instituto de Reabilitação Fisiot em Saúde. CNPJ 68.387.204/0001-60. Todos os direitos reservados.</span>
         <span class="footer-sparkz">Site desenvolvido por <strong>Sparkz Agency</strong></span>
       </div>
     </div>
@@ -1579,6 +1612,6 @@
     <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
   </a>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=20260826-contato-oficial"></script>
 </body>
 </html>

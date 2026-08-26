@@ -86,3 +86,12 @@ Entrega:
 - Criar preview público em https://irefis.sparkz.agency ou domínio de preview equivalente.
 - Arquivos estáticos funcionais.
 - Fazer QA visual antes de finalizar.
+ATUALIZAÇÃO OFICIAL — 26/08/2026
+- CNPJ: 68.387.204/0001-60.
+- Endereço: Rua Dr. Benjamim Vieira, 27, Joana D'Arc, Lagoa Santa/MG, CEP 33239-238.
+- WhatsApp de atendimento: Wilson Barbosa — (31) 99259-4953. Link wa.me normalizado para DDD 31: 553192594953.
+- E-mail: irefis2026@gmail.com.
+- Domínio informado: www.irefis.org.br. O domínio ainda não responde em DNS/HTTPS na verificação de 26/08/2026; não anunciar como ativo antes de configurar e validar.
+- PIX oficial do IREFIS: chave telefone (31) 98055-0930. Arte/QR Code oficial em referencias/pix-oficial-irefis.jpg. Exibir imagem e botão de copiar chave; orientar envio do comprovante para o WhatsApp de Wilson Barbosa. Não usar a chave PIX como número de atendimento.
+- Substituir contatos “a confirmar” e o WhatsApp antigo pelos dados acima em header, seções, CTAs e rodapé. Preservar o endereço com a grafia fornecida por Wilson.
+
