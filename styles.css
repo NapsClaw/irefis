@@ -1052,6 +1052,7 @@ button { cursor: pointer; font-family: inherit; }
 .hora-icon { background: rgba(0,172,193,0.1); color: var(--cyan); }
 .endereco-icon { background: rgba(229,57,53,0.1); color: var(--red); }
 .email-icon { background: rgba(21,101,192,0.1); color: var(--blue); }
+.cnpj-icon { background: rgba(46,125,50,0.1); color: #2e7d32; }
 .contato-card > div { display: flex; flex-direction: column; gap: 2px; }
 .contato-card strong { font-family: 'Montserrat', sans-serif; font-size: 0.9rem; color: var(--dark); }
 .contato-card span { font-size: 0.82rem; color: var(--gray-600); }
