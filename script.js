@@ -235,7 +235,7 @@
         }
 
         resultado.innerHTML = resHtml;
-        const waUrl = `https://wa.me/5531992594953?text=${encodeURIComponent(msgWa)}`;
+        const waUrl = `https://wa.me/553192594953?text=${encodeURIComponent(msgWa)}`;
         ctaWa.innerHTML = `
           <a href="${waUrl}" target="_blank" rel="noopener" class="btn-frete-wa">
             ${WA_SVG}
@@ -244,7 +244,7 @@
           <p class="frete-wa-obs">A equipe do IREFIS responderá com todos os detalhes para finalizar seu pedido.</p>`;
 
       } catch (err) {
-        showErro('⚠️ Não foi possível consultar o CEP. Verifique sua conexão ou fale pelo WhatsApp: <a href="https://wa.me/5531992594953" target="_blank" style="color:#FFD54F">(31) 99259-4953</a>.');
+        showErro('⚠️ Não foi possível consultar o CEP. Verifique sua conexão ou fale pelo WhatsApp: <a href="https://wa.me/553192594953" target="_blank" style="color:#FFD54F">(31) 99259-4953</a>.');
       } finally {
         setLoading(false);
       }
