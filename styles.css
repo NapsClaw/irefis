@@ -1134,7 +1134,7 @@ button { cursor: pointer; font-family: inherit; }
 }
 .footer-inner {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
   gap: 36px;
   padding-bottom: 36px;
   border-bottom: 1px solid rgba(255,255,255,0.08);
